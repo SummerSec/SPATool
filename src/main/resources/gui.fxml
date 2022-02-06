@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="672.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sumsec.ui.mainController">
+   <children>
+<!--      <VBox prefHeight="672.0" prefWidth="923.0">-->
+      <VBox prefHeight="800.0" prefWidth="1000.0">
+         <children>
+            <TabPane prefHeight="801.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Controller Flow Graph">
+<!--                <Tab text="CFG">-->
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="894.0" prefWidth="1000.0">
+                           <children>
+                              <ToolBar prefHeight="44.0" prefWidth="1000.0">
+                                <items>
+                                  <Button id="CFGFile" mnemonicParsing="false" onAction="#CFGFile" text="Select Class File" textAlignment="CENTER" textFill="#050805" />
+                                    <Button id="CFGG" mnemonicParsing="false" onAction="#CFGG" text="Generate" />
+                                    <Button id="CFGSFile" mnemonicParsing="false" onAction="#CFGSFile" prefHeight="23.0" prefWidth="117.0" text="Save Dot File" textAlignment="CENTER" />
+                                    <Button id="CFGExport" mnemonicParsing="false" onAction="#CFGExport" text="Export Image" />
+                                    <TextField id="methodname" prefHeight="23.0" prefWidth="175.0" promptText="method name default hello" />
+                                    <Label prefHeight="15.0" prefWidth="87.0" text="GraphType" />
+                                    <ComboBox id="graphtype" prefHeight="23.0" prefWidth="163.0" promptText="BriefUnitGraph" />
+                                </items>
+                              </ToolBar>
+                              <ImageView id="CFGImage" fitHeight="422.0" fitWidth="989.0" layoutX="4.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" />
+                              <TextArea layoutX="6.0" layoutY="44.0" prefHeight="248.0" prefWidth="988.0" promptText="method context (default name hello)" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Abstract Syntax Tree">
+<!--                <Tab text="AST">-->
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="894.0" prefWidth="1000.0">
+                           <children>
+                              <TextArea id="ASTFC" layoutX="9.0" layoutY="8.0" prefHeight="748.0" prefWidth="322.0" promptText="File Context" />
+                              <Button id="ASTG" layoutX="342.0" layoutY="165.0" mnemonicParsing="false" onAction="#ASTG" prefHeight="23.0" prefWidth="100.0" text="Generate" />
+                              <ImageView id="ASTImage" fitHeight="760.0" fitWidth="542.0" layoutX="449.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+                              <Button id="ASTSave" layoutX="342.0" layoutY="209.0" mnemonicParsing="false" onAction="#ASTSave" prefHeight="23.0" prefWidth="100.0" text="Save AST File" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font></Button>
+                              <Button id="ASTExport" layoutX="342.0" layoutY="253.0" mnemonicParsing="false" onAction="#ASTExport" prefHeight="23.0" prefWidth="100.0" text="Export Image">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font></Button>
+                              <Button id="ASTReset" layoutX="342.0" layoutY="298.0" mnemonicParsing="false" onAction="#ASTReset" prefHeight="23.0" prefWidth="98.0" text="Reset" textAlignment="CENTER" />
+                              <ComboBox id="FileType" layoutX="344.0" layoutY="370.0" prefHeight="23.0" prefWidth="95.0" promptText="Dot" />
+                              <Label layoutX="351.0" layoutY="339.0" prefHeight="15.0" prefWidth="81.0" text="Save File Type">
+                                 <font>
+                                    <Font size="11.0" />
+                                 </font></Label>
+                              <Button onAction="#ASTFile" id="ASTFile" layoutX="342.0" layoutY="128.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="100.0" text="Select File" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text=" About the SPATool">
+                      <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="894.0" prefWidth="1000.0">
+                              <children>
+                                  <TextArea id="About" layoutX="9.0" layoutY="8.0" prefHeight="627.0" prefWidth="914.0" promptText="About" />
+                              </children>
+                          </AnchorPane>
+                      </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
