@@ -14,6 +14,9 @@ import org.apache.logging.log4j.Logger;
  **/
 public class test {
     public static String str = "123";
+    static {
+        test.str = "456";
+    }
     public static void main(String[] args) {
         Logger log = LogManager.getLogger(test.class);
         log.info("info "+ "${sys:user.dir}");
