@@ -16,7 +16,8 @@ public class ConstatField {
     public static final String separator = File.separator;
     public final static String CFGHOME = HOME + separator + "datas" + separator + "cfg";
     public final static String Result = HOME + separator + "result";
-
+    public static String CFGHOMETemp = CFGHOME;
+    public static String ResultTemp = Result;
 
 
 

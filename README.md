@@ -14,9 +14,11 @@
 	<a xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://visitor-badge.laobi.icu"><rect fill="rgba(0,0,0,0)" height="20" width="17.0" x="49.6"/></a>
 	</p>
   
-  
 
 ## 📝 TODO
+
+- [ ] Class文件生成IR
+- [ ] IR文件生成CFG
 
 ---
 ## 🐉 来龙去脉
@@ -38,4 +40,4 @@
 该工具只授权于企业内部进行问题排查，请勿用于非法用途，请遵守网络安全法，否则后果作者概不负责
 
 ----
-  
+

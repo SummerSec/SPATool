@@ -20,6 +20,8 @@ public class test {
     public static void main(String[] args) {
         Logger log = LogManager.getLogger(test.class);
         log.info("info "+ "${sys:user.dir}");
+        String s = "al.class.class";
+        System.out.println(s.split("\\.")[0]);
 
     }
 

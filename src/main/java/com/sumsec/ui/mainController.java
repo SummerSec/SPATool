@@ -1,8 +1,22 @@
 package com.sumsec.ui;
 
+import com.sumsec.core.cfg.Generate;
+import com.sumsec.core.cfg.ImageUtil;
+import com.sumsec.core.cfg.uitls.GenClass;
+import com.sumsec.core.cfg.uitls.SelectC;
+import com.sumsec.uitl.ConstatField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+
+import javax.swing.plaf.FileChooserUI;
+import java.io.File;
 
 /**
  * @ClassName: mainController
@@ -16,6 +30,7 @@ public class mainController {
 
     public static String CFGFilePath = "";
     // 选择类文件位置
+    public static String CFGFileName = "";
     public static String CFGSaveFilePath = "";
     // 保存cfg文件的位置
     public static String CFGImagePath = "";
@@ -28,6 +43,15 @@ public class mainController {
     // AST 保存图片位置
     public String ASTFileName = "";
     // 保存AST文件名
+    public String GraphType = "";
+    // graph type
+
+    @FXML
+    public TextArea mC; // 方法内容
+    @FXML
+    public TextField mName; // 方法名
+    @FXML
+    public ComboBox<String> graphType; // 类型
 
     @FXML
     private ImageView CFGImageView;
@@ -49,13 +73,51 @@ public class mainController {
 
     @FXML
     private void initialize() {
+        ConstatField.CFGHOMETemp =  ConstatField.separator + System.nanoTime();
+        ConstatField.ResultTemp = ConstatField.separator + System.nanoTime();
     }
 
     // 选择class文件
     public void CFGFile(ActionEvent actionEvent) {
+        FileChooser fileChooser = new FileChooser();
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
+        fileChooser.getExtensionFilters().add(extFilter);
+        Stage stage = new Stage();
+        File file = fileChooser.showOpenDialog(stage);
+        CFGFileName = file.getName();
+        CFGFilePath = file.getAbsolutePath();
+
+//        System.out.println(CFGFilePath);
+//        System.out.println(classPath);
+
     }
     // 生成cfg的dot文件
     public void CFGG(ActionEvent actionEvent) {
+        Generate generate = new Generate();
+        boolean f = false;
+//        generate.DotG();
+        if (!CFGFilePath.equals("")) {
+            SelectC.selectFile(CFGFilePath);
+            f = generate.DotG(graphType.getValue(),CFGFileName);
+
+        }else {
+            String methodN = mName.getText();
+            String mContext = mC.getText();
+            if (!methodN.equals("") && !mContext.equals("")) {
+                String clzzname = generate.methodG(methodN, mContext);
+                f = generate.DotG(graphType.getValue(), clzzname);
+            }else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Error");
+                alert.setContentText("请输入方法名和方法内容");
+                System.out.println("请输入方法名和方法内容");
+            }
+        }
+        if (!f) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Exception Dialog");
+            alert.setContentText("Something wrong, Please looking the log file");
+        }
     }
     // 保存CFG的dot文件
     public void CFGSFile(ActionEvent actionEvent) {
@@ -77,5 +139,12 @@ public class mainController {
     }
     // 选择Java或者Class文件
     public void ASTFile(ActionEvent actionEvent) {
+        FileChooser fileChooser = new FileChooser();
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
+        FileChooser.ExtensionFilter extFilter1 = new FileChooser.ExtensionFilter("Java Files", "*.java");
+        fileChooser.getExtensionFilters().add(extFilter);
+        fileChooser.getExtensionFilters().add(extFilter1);
+        Stage stage = new Stage();
+        File file = fileChooser.showOpenDialog(stage);
     }
 }

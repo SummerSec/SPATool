@@ -23,7 +23,7 @@
                                     <Button id="CFGG" mnemonicParsing="false" onAction="#CFGG" text="Generate" />
                                     <Button id="CFGSFile" mnemonicParsing="false" onAction="#CFGSFile" prefHeight="23.0" prefWidth="117.0" text="Save Dot File" textAlignment="CENTER" />
                                     <Button id="CFGExport" mnemonicParsing="false" onAction="#CFGExport" text="Export Image" />
-                                    <TextField id="methodname" prefHeight="23.0" prefWidth="175.0" promptText="method name default hello" />
+                                    <TextField id="mName" prefHeight="23.0" prefWidth="175.0" promptText="method name default hello" />
                                     <Label prefHeight="15.0" prefWidth="87.0" text="GraphType" />
                                     <ComboBox id="graphtype" prefHeight="23.0" prefWidth="163.0" promptText="BriefUnitGraph" />
                                 </items>
