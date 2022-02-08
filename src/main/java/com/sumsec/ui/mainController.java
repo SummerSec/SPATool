@@ -5,6 +5,8 @@ import com.sumsec.core.cfg.ImageUtil;
 import com.sumsec.core.cfg.uitls.GenClass;
 import com.sumsec.core.cfg.uitls.SelectC;
 import com.sumsec.uitl.ConstatField;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -17,6 +19,8 @@ import javafx.stage.Stage;
 
 import javax.swing.plaf.FileChooserUI;
 import java.io.File;
+import java.net.MalformedURLException;
+import java.util.ArrayList;
 
 /**
  * @ClassName: mainController
@@ -43,7 +47,7 @@ public class mainController {
     // AST 保存图片位置
     public String ASTFileName = "";
     // 保存AST文件名
-    public String GraphType = "";
+//    public String GraphType = "";
     // graph type
 
     @FXML
@@ -52,12 +56,14 @@ public class mainController {
     public TextField mName; // 方法名
     @FXML
     public ComboBox<String> graphType; // 类型
+    @FXML
+    public ComboBox<String> FileType; // ast type
 
     @FXML
-    private ImageView CFGImageView;
+    public ImageView CFGImageView;
 
     @FXML
-    private ImageView ASTImageView;
+    public ImageView ASTImageView;
 
 
 
@@ -73,8 +79,11 @@ public class mainController {
 
     @FXML
     private void initialize() {
-        ConstatField.CFGHOMETemp =  ConstatField.separator + System.nanoTime();
-        ConstatField.ResultTemp = ConstatField.separator + System.nanoTime();
+        ConstatField.CFGHOMETemp +=  ConstatField.separator + System.nanoTime();
+        ConstatField.ResultTemp += ConstatField.separator + System.nanoTime();
+        this.InitCombox();
+        ControllersFactory.controllers.put(mainController.class.getName(), this);
+
     }
 
     // 选择class文件
@@ -103,6 +112,8 @@ public class mainController {
         }else {
             String methodN = mName.getText();
             String mContext = mC.getText();
+            System.out.println(methodN);
+            System.out.println(mContext);
             if (!methodN.equals("") && !mContext.equals("")) {
                 String clzzname = generate.methodG(methodN, mContext);
                 f = generate.DotG(graphType.getValue(), clzzname);
@@ -117,6 +128,11 @@ public class mainController {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Exception Dialog");
             alert.setContentText("Something wrong, Please looking the log file");
+        }else {
+            ImageUtil imageUtil = new ImageUtil();
+            String path = imageUtil.Dot2Image(mName.getText());
+            CFGImageView = new ImageView();
+            imageUtil.setImage(path,CFGImageView);
         }
     }
     // 保存CFG的dot文件
@@ -146,5 +162,17 @@ public class mainController {
         fileChooser.getExtensionFilters().add(extFilter1);
         Stage stage = new Stage();
         File file = fileChooser.showOpenDialog(stage);
+    }
+
+    public void InitCombox(){
+        ObservableList<String> graphs = FXCollections.observableArrayList(new String[]{"BriefUnitGraph"});
+        this.graphType.setPromptText("BriefUnitGraph");
+        this.graphType.setValue("BriefUnitGraph");
+        this.graphType.setItems(graphs);
+        ObservableList<String> astTypes = FXCollections.observableArrayList(new String[]{"DOT", "JSON", "YAML"});
+        this.FileType.setValue("DOT");
+        this.FileType.setPromptText("DOT");
+        this.FileType.setItems(astTypes);
+
     }
 }

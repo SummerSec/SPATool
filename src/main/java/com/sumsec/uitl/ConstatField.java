@@ -11,14 +11,12 @@ import java.io.File;
  * @Description:
  **/
 public class ConstatField {
-
     public final static String HOME = System.getProperty("user.dir");
     public static final String separator = File.separator;
     public final static String CFGHOME = HOME + separator + "datas" + separator + "cfg";
     public final static String Result = HOME + separator + "result";
     public static String CFGHOMETemp = CFGHOME;
     public static String ResultTemp = Result;
-
 
 
 }

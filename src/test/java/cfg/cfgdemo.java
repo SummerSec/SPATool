@@ -36,10 +36,10 @@ public class cfgdemo {
         Options.v().set_prepend_classpath(true);
         Options.v().set_allow_phantom_refs(true);
         Options.v().set_soot_classpath(System.getProperty("user.dir"));
-        Scene.v().loadClassAndSupport("FizzBuzz");
+        Scene.v().loadClassAndSupport("tmethod637400787345300");
         Scene.v().loadNecessaryClasses();
 //        Scene.v().addBasicClass("FizzBuzz", SootClass.BODIES);
-        String[] arg = new String[]{ "FizzBuzz", "--graph=BriefUnitGraph"};
+        String[] arg = new String[]{ "tmethod637400787345300", "--graph=BriefUnitGraph"};
         try {
             CFGViewer.main(arg);
         }catch (Exception e){
