@@ -1,6 +1,6 @@
 package com.sumsec.core.cfg.uitls;
 
-import com.sumsec.uitl.ConstatField;
+import com.sumsec.util.ConstatField;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import soot.options.Options;
@@ -24,5 +24,6 @@ public class Prepare {
 //        Options.v().set_whole_program(true);
         log.info("CFG环境设置完成");
         log.info("CFG Home: " + ConstatField.CFGHOMETemp);
+
     }
 }

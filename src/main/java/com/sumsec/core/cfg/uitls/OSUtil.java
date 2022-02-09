@@ -1,11 +1,16 @@
 package com.sumsec.core.cfg.uitls;
 
-import com.sumsec.uitl.ConstatField;
+import com.sumsec.util.ConstatField;
 import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import static cn.hutool.core.io.FileUtil.checkSlip;
 import static cn.hutool.core.io.FileUtil.mkdir;
+import static java.lang.Thread.sleep;
 
 /**
  * @ClassName: isWinOS
@@ -27,39 +32,46 @@ public class OSUtil {
         return isWindowsOS;
     }
 
-    public String RunCmd(String imgPath,String dotPath){
+    public String[] RunCmd(String[] dotPath){
         boolean isWindowsOS = isWindowsOS();
         String[] cmd;
         mkdir(ConstatField.ResultTemp);
+        ArrayList<String> imgPaths = new ArrayList<>();
 //        String path = ConstatField.ResultTemp + ConstatField.separator + name + ".png";
-        if(isWindowsOS){
-            //windows下的命令
-             cmd = new String[]{"cmd.exe", "/c", "dot", "-Tpng", dotPath, "-o", imgPath};
-        }else {
-            //linux下的命令
-             cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" + dotPath + "-o" , imgPath};
+        for (int i = 0; i < dotPath.length; i++) {
+            String imgPath = ConstatField.ResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("\\") + 1, dotPath[i].lastIndexOf(".")) + ".png";
+            if (isWindowsOS) {
+                //windows下的命令
+                cmd = new String[]{"cmd.exe", "/c", "dot", "-Tpng", dotPath[i], "-o", imgPath};
+            } else {
+                //linux下的命令
+                cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" + dotPath[i] + "-o", imgPath};
+            }
+            try {
+
+                logger.info("开始生成图片 " + dotPath[i]);
+                logger.info("正在执行命令 "+ Arrays.toString(cmd));
+                sleep(1000);
+                Runtime.getRuntime().exec(cmd);
+                logger.info("生成图片成功");
+                logger.info("图片路径为：" + imgPath);
+                imgPaths.add(imgPath);
+            } catch (Exception e) {
+                logger.error("生成图片失败 " + dotPath[i]);
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Error");
+                alert.setContentText(e.getMessage());
+                logger.error(e.getMessage());
+            }
         }
-        try {
-            logger.info("开始生成图片");
-            Runtime.getRuntime().exec(cmd);
-            logger.info("生成图片成功");
-            logger.info("图片路径为：" + imgPath);
-            return imgPath;
-        }catch (Exception e){
-            logger.error("生成图片失败");
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Error");
-            alert.setContentText(e.getMessage());
-            logger.error(e.getMessage());
-            return null;
-        }
+        return imgPaths.toArray(new String[0]);
 
     }
 
 
     public static void main(String[] args) {
         OSUtil osUtil = new OSUtil();
-        osUtil.RunCmd("tmethod638287524801000.png","G:\\GitHubProject\\SPATool\\sootOutput\\tmethod638287524801000 void main(java.lang.String[]).dot" );
+//        osUtil.RunCmd("tmethod638287524801000.png","G:\\GitHubProject\\SPATool\\sootOutput\\tmethod638287524801000 void main(java.lang.String[]).dot" );
     }
 
 }

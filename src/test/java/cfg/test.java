@@ -1,7 +1,6 @@
 package cfg;
 
-import cn.hutool.log.Log;
-import com.sumsec.uitl.ConstatField;
+import com.sumsec.util.ConstatField;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

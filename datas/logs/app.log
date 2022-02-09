@@ -1,462 +1,1166 @@
-2022.02.06 at 19:41:56 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.06 at 20:44:10 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.06 at 20:46:50 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.06 at 20:48:05 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.06 at 20:48:28 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.06 at 20:48:38 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 13:53:26 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 13:54:52 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 13:59:56 CST INFO  cfg.test 22 main - info G:\GitHubProject\SPATool
-2022.02.07 at 20:07:23 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:10:22 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:11:34 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:12:49 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:13:03 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod631307979666200
-2022.02.07 at 20:13:03 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod631307979666200
-2022.02.07 at 20:13:03 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:26:31 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:26:41 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632126020330400
-2022.02.07 at 20:26:41 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632126020330400
-2022.02.07 at 20:26:41 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:26:41 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:26:41 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:26:41 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: \632115189308400
-2022.02.07 at 20:26:41 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:26:41 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\632115189308400' does not exist.
-2022.02.07 at 20:28:15 CST INFO  cfg.test 23 main - info G:\GitHubProject\SPATool
-2022.02.07 at 20:29:31 CST INFO  cfg.test 23 main - info G:\GitHubProject\SPATool
-2022.02.07 at 20:29:44 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:29:49 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632314043881500
-2022.02.07 at 20:29:49 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632314043881500
-2022.02.07 at 20:29:49 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:29:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:30:43 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:30:43 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: \632308688421900
-2022.02.07 at 20:30:52 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:30:59 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632383970611100
-2022.02.07 at 20:30:59 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632383970611100
-2022.02.07 at 20:30:59 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:30:59 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:31:15 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:31:15 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632376300361300
-2022.02.07 at 20:32:22 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:32:35 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632480318859200
-2022.02.07 at 20:32:36 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632480318859200
-2022.02.07 at 20:32:48 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:32:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:32:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:32:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632466915187800
-2022.02.07 at 20:33:09 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:33:14 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632518713040400
-2022.02.07 at 20:33:14 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632518713040400
-2022.02.07 at 20:33:14 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： null
-2022.02.07 at 20:33:14 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - null
-2022.02.07 at 20:33:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:33:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:33:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632513213013200
-2022.02.07 at 20:33:14 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:33:14 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\632513213013200' does not exist.
-2022.02.07 at 20:34:37 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:34:47 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632611850225500
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632611850225500
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - [source error] no such field: test/str
-2022.02.07 at 20:34:47 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod632611850225500
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod632611850225500
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - G:\GitHubProject\SPATool\datas\cfg\632601539273400\com.sumsec.core.cfg.core.tmethod632611850225500.class (系统找不到指定的路径。)
-2022.02.07 at 20:34:47 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:34:47 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:34:47 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632601539273400
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:34:47 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\632601539273400' does not exist.
-2022.02.07 at 20:35:26 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632651247641100
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632651247641100
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - [source error] no such field: test/str
-2022.02.07 at 20:35:26 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod632651247641100
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod632651247641100
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - G:\GitHubProject\SPATool\datas\cfg\632601539273400\com.sumsec.core.cfg.core.tmethod632651247641100.class (系统找不到指定的路径。)
-2022.02.07 at 20:35:26 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:35:26 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:35:26 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632601539273400
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:35:26 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\632601539273400' does not exist.
-2022.02.07 at 20:35:52 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod632677376316300
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod632677376316300
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - [source error] no such field: test/str
-2022.02.07 at 20:35:52 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod632677376316300
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod632677376316300
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - G:\GitHubProject\SPATool\datas\cfg\632601539273400\com.sumsec.core.cfg.core.tmethod632677376316300.class (系统找不到指定的路径。)
-2022.02.07 at 20:35:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:35:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:35:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\632601539273400
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:35:52 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\632601539273400' does not exist.
-2022.02.07 at 20:41:19 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:41:40 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633025234597000
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类失败：com.sumsec.core.cfg.core.tmethod633025234597000
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.core.TMethod 34 genMethod - [source error] no such field: test/str
-2022.02.07 at 20:41:40 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod633025234597000
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod633025234597000
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - G:\GitHubProject\SPATool\datas\cfg\633003521974900\com.sumsec.core.cfg.core.tmethod633025234597000.class (系统找不到指定的路径。)
-2022.02.07 at 20:41:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:41:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:41:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\633003521974900
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:41:40 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\633003521974900' does not exist.
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633069611604300
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.core.TMethod 29 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod633069611604300成功
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.core.TMethod 30 genMethod - 开始生成模板方法：main
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod633069611604300
-2022.02.07 at 20:42:24 CST ERROR com.sumsec.core.cfg.uitls.GenClass 39 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod633069611604300
-2022.02.07 at 20:42:24 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - G:\GitHubProject\SPATool\datas\cfg\633003521974900\com.sumsec.core.cfg.core.tmethod633069611604300.class (系统找不到指定的路径。)
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:42:24 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\633003521974900
-2022.02.07 at 20:42:24 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:42:24 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\633003521974900' does not exist.
-2022.02.07 at 20:44:25 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633221120863700
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.core.TMethod 29 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod633221120863700成功
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.core.TMethod 30 genMethod - 开始生成模板方法：main
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.uitls.GenClass 31 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod633221120863700
-2022.02.07 at 20:44:56 CST ERROR com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod633221120863700
-2022.02.07 at 20:44:56 CST ERROR com.sumsec.core.cfg.uitls.GenClass 42 genClassM - G:\GitHubProject\SPATool\datas\cfg\633189964553300\com.sumsec.core.cfg.core.tmethod633221120863700.class (系统找不到指定的路径。)
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:44:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\633189964553300
-2022.02.07 at 20:44:56 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:44:56 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\633189964553300' does not exist.
-2022.02.07 at 20:46:07 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 20:46:11 CST INFO  com.sumsec.core.cfg.core.TMethod 25 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633296607623000
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.core.TMethod 29 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod633296607623000成功
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.core.TMethod 30 genMethod - 开始生成模板方法：main
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.uitls.GenClass 31 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod633296607623000
-2022.02.07 at 20:46:12 CST ERROR com.sumsec.core.cfg.uitls.GenClass 42 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod633296607623000
-2022.02.07 at 20:46:12 CST ERROR com.sumsec.core.cfg.uitls.GenClass 43 genClassM - 系统找不到指定的路径。
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 20:46:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\633291581016800
-2022.02.07 at 20:46:12 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 20:46:12 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\633291581016800' does not exist.
-2022.02.07 at 20:49:45 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633509656078500
-2022.02.07 at 20:49:45 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod633509656078500成功
-2022.02.07 at 20:49:45 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：hello
-2022.02.07 at 20:51:50 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod633634831315300
-2022.02.07 at 20:51:50 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod633634831315300成功
-2022.02.07 at 20:51:50 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：hello
-2022.02.07 at 21:07:26 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod634583781999700
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod634583781999700成功
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod634583781999700
-2022.02.07 at 21:07:39 CST ERROR com.sumsec.core.cfg.uitls.GenClass 44 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod634583781999700
-2022.02.07 at 21:07:39 CST ERROR com.sumsec.core.cfg.uitls.GenClass 45 genClassM - 系统找不到指定的路径。
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:07:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\634570787887800
-2022.02.07 at 21:07:39 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 21:07:39 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\634570787887800' does not exist.
-2022.02.07 at 21:08:46 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod634651526558200
-2022.02.07 at 21:08:49 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod634651526558200成功
-2022.02.07 at 21:08:49 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：hello
-2022.02.07 at 21:09:07 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:09:15 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod634680068057400
-2022.02.07 at 21:10:03 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod634680068057400成功
-2022.02.07 at 21:10:04 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:10:11 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod634680068057400
-2022.02.07 at 21:10:25 CST ERROR com.sumsec.core.cfg.uitls.GenClass 43 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod634680068057400
-2022.02.07 at 21:10:26 CST ERROR com.sumsec.core.cfg.uitls.GenClass 44 genClassM - 系统找不到指定的路径。
-2022.02.07 at 21:10:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:10:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:10:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\634671336115300
-2022.02.07 at 21:15:43 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod635077457642300
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod635077457642300成功
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod635077457642300
-2022.02.07 at 21:15:52 CST ERROR com.sumsec.core.cfg.uitls.GenClass 40 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod635077457642300
-2022.02.07 at 21:15:52 CST ERROR com.sumsec.core.cfg.uitls.GenClass 41 genClassM - G:\GitHubProject\SPATool\datas\cfg\635067787780000\com.sumsec.core.cfg.core.tmethod635077457642300.class (系统找不到指定的路径。)
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:15:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\635067787780000
-2022.02.07 at 21:15:52 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 21:15:52 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\635067787780000' does not exist.
-2022.02.07 at 21:18:33 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod635244167339300
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod635244167339300成功
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod635244167339300
-2022.02.07 at 21:18:39 CST ERROR com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod635244167339300
-2022.02.07 at 21:18:39 CST ERROR com.sumsec.core.cfg.uitls.GenClass 42 genClassM - -1
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:18:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\635237694118800
-2022.02.07 at 21:18:39 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 21:18:39 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\635237694118800' does not exist.
-2022.02.07 at 21:19:52 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:19:59 CST INFO  cfg.test 23 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:20:36 CST INFO  cfg.test 23 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:20:49 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod635390501589100
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod635390501589100成功
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod635390501589100
-2022.02.07 at 21:21:05 CST ERROR com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod635390501589100
-2022.02.07 at 21:21:05 CST ERROR com.sumsec.core.cfg.uitls.GenClass 42 genClassM - G:\GitHubProject\SPATool\datas\cfg\635373734560000\tmethod635390501589100.class (系统找不到指定的路径。)
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:21:05 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\635373734560000
-2022.02.07 at 21:21:05 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 21:21:05 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\635373734560000' does not exist.
-2022.02.07 at 21:22:58 CST INFO  cfg.test 26 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:23:41 CST INFO  cfg.test 26 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:24:12 CST INFO  cfg.test 26 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:26:25 CST INFO  cfg.test 27 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:27:54 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:28:13 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:29:15 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:30:01 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:31:51 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod636045057908900
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod636045057908900成功
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.uitls.GenClass 30 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod636045057908900
-2022.02.07 at 21:32:00 CST ERROR com.sumsec.core.cfg.uitls.GenClass 43 genClassM - 生成class失败： com.sumsec.core.cfg.core.tmethod636045057908900
-2022.02.07 at 21:32:00 CST ERROR com.sumsec.core.cfg.uitls.GenClass 44 genClassM - G:\GitHubProject\SPATool\datas\cfg\636035702349800\tmethod636045057908900.class (系统找不到指定的路径。)
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:32:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\636035702349800
-2022.02.07 at 21:32:00 CST ERROR com.sumsec.core.cfg.Generate 47 DotG - 生成Dot错误
-2022.02.07 at 21:32:00 CST ERROR com.sumsec.core.cfg.Generate 51 DotG - java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path 'G:\GitHubProject\SPATool\datas\cfg\636035702349800' does not exist.
-2022.02.07 at 21:34:41 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:36:55 CST INFO  cfg.test 28 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:38:11 CST INFO  cfg.test 27 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:38:53 CST INFO  cfg.test 27 main - info G:\GitHubProject\SPATool
-2022.02.07 at 21:40:59 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod636596071686100
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.core.TMethod 33 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod636596071686100成功
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod636596071686100
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.uitls.GenClass 42 genClassM - 生成class： com.sumsec.core.cfg.core.tmethod636596071686100成功
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:41:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\636583752297800
-2022.02.07 at 21:41:14 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 开始生成cfg图
-2022.02.07 at 21:41:32 CST INFO  com.sumsec.core.cfg.Generate 44 DotG - cfg图生成完成
-2022.02.07 at 21:41:32 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 21:41:32 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 21:41:32 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 44 RunCmd - 生成图片失败
-2022.02.07 at 21:41:32 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - null
-2022.02.07 at 21:44:19 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:44:24 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：com.sumsec.core.cfg.core.tmethod636789611238200
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：com.sumsec.core.cfg.core.tmethod636789611238200成功
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： com.sumsec.core.cfg.core.tmethod636789611238200
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： com.sumsec.core.cfg.core.tmethod636789611238200成功
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:44:25 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\636784010949600
-2022.02.07 at 21:44:27 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 开始生成cfg图
-2022.02.07 at 21:44:46 CST INFO  com.sumsec.core.cfg.Generate 44 DotG - cfg图生成完成
-2022.02.07 at 21:44:46 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 21:44:46 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 21:44:46 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 44 RunCmd - 生成图片失败
-2022.02.07 at 21:44:46 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - null
-2022.02.07 at 21:51:22 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod637207432109000
-2022.02.07 at 21:51:22 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod637207432109000成功
-2022.02.07 at 21:51:22 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：hello
-2022.02.07 at 21:53:07 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod637323807206100
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod637323807206100成功
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod637323807206100
-2022.02.07 at 21:53:19 CST ERROR com.sumsec.core.cfg.uitls.GenClass 43 genClassM - 生成class失败： tmethod637323807206100
-2022.02.07 at 21:53:19 CST ERROR com.sumsec.core.cfg.uitls.GenClass 44 genClassM - 5
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:53:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\637311246584100
-2022.02.07 at 21:53:21 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 开始生成cfg图
-2022.02.07 at 21:53:39 CST INFO  com.sumsec.core.cfg.Generate 44 DotG - cfg图生成完成
-2022.02.07 at 21:53:39 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 21:53:39 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 21:53:39 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 44 RunCmd - 生成图片失败
-2022.02.07 at 21:53:39 CST ERROR com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - null
-2022.02.07 at 21:54:31 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod637400787345300
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod637400787345300成功
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod637400787345300
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod637400787345300成功
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 21:54:36 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\637395590035000
-2022.02.07 at 21:54:38 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 开始生成cfg图
-2022.02.07 at 21:54:56 CST INFO  com.sumsec.core.cfg.Generate 44 DotG - cfg图生成完成
-2022.02.07 at 21:54:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 21:54:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 22:04:22 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod637997177218100
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod637997177218100成功
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod637997177218100
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod637997177218100成功
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\637987109857800
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod637997177218100
-2022.02.07 at 22:04:32 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:04:33 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:04:33 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:04:33 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 22:09:08 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod638287524801000
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod638287524801000成功
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod638287524801000
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod638287524801000成功
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:09:22 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\638272564511600
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod638287524801000
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 42 RunCmd - 生成图片成功
-2022.02.07 at 22:09:23 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\638272564519200main.png
-2022.02.07 at 22:12:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:12:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 22:12:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 42 RunCmd - 生成图片成功
-2022.02.07 at 22:12:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 图片路径为：2.png
-2022.02.07 at 22:13:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 22 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:13:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 40 RunCmd - 开始生成图片
-2022.02.07 at 22:13:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 42 RunCmd - 生成图片成功
-2022.02.07 at 22:13:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 图片路径为：tmethod638287524801000.png
-2022.02.07 at 22:14:34 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:14:34 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:14:34 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:14:34 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：tmethod638287524801000.png
-2022.02.07 at 22:14:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:14:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:14:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:14:56 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：tmethod638287524801000.png
-2022.02.07 at 22:15:06 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod638639016333200
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod638639016333200成功
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod638639016333200
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod638639016333200成功
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\638630202215100
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod638639016333200
-2022.02.07 at 22:15:14 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:15:15 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:15:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:15:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:15:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:15:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\638630202223900main.png
-2022.02.07 at 22:17:48 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod638799234416400
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod638799234416400成功
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod638799234416400
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod638799234416400成功
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:17:54 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\638793004749300
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod638799234416400
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:17:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\638793004756900\main.png
-2022.02.07 at 22:22:06 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod639059116445400
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod639059116445400成功
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod639059116445400
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod639059116445400成功
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\639050869846500
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod639059116445400
-2022.02.07 at 22:22:14 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:22:15 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:22:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:22:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:22:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:22:15 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\639050869858500\main.png
-2022.02.07 at 22:23:53 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod639163894056000
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod639163894056000成功
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod639163894056000
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod639163894056000成功
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\639157650114100
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod639163894056000
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:23:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\639157650127700\main.png
-2022.02.07 at 22:25:22 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod639288510575200
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod639288510575200成功
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod639288510575200
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod639288510575200成功
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:26:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\639247120562000
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod639288510575200
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:26:04 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\639247120569900\main.png
-2022.02.07 at 22:28:36 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod639447818298800
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod639447818298800成功
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod639447818298800
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod639447818298800成功
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\639440574808000
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod639447818298800
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:28:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\639440574842000\main.png
-2022.02.07 at 22:41:12 CST INFO  com.sumsec.ui.main 34 start - Application started
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod640214031215500
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod640214031215500成功
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod640214031215500
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod640214031215500成功
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\640196623955000
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.Generate 47 DotG - 开始生成cfg图
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 生成的文件名为：tmethod640214031215500
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 生成的图类型为：BriefUnitGraph
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.Generate 51 DotG - cfg图生成完成
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 24 isWindowsOS - 当前操作系统为：Windows 10
-2022.02.07 at 22:41:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 43 RunCmd - 开始生成图片
-2022.02.07 at 22:41:30 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 45 RunCmd - 生成图片成功
-2022.02.07 at 22:41:30 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 46 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\640196623968000\main.png
+2022.02.08 at 22:00:12 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:00:15 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:00:27 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:00:27 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\724149543083400
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\724149543083400\FizzBuzz.class
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:00:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\724149543083400
+2022.02.08 at 22:00:31 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:00:31 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:00:31 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:00:31 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:01:33 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:01:35 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:01:47 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:01:47 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\724230528226300
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\724230528226300\FizzBuzz.class
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\724230528226300
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:01:49 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:03:45 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:03:46 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:03:59 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:03:59 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\724361751240900
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\724361751240900\FizzBuzz.class
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:04:00 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\724361751240900
+2022.02.08 at 22:04:01 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:04:01 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:04:01 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:04:01 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:04:43 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:04:46 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:04:52 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:04:52 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\724419741763900
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\724419741763900\FizzBuzz.class
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:04:57 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\724419741763900
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 26 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\sootOutput\724419741774400\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\724419741772500\G:\GitHubProject\SPATool\sootOutput\724419741774400\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\sootOutput\724419741774400\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\724419741772500\G:\GitHubProject\SPATool\sootOutput\724419741774400\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 22:04:58 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@d029fc0
+2022.02.08 at 22:04:59 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:04:59 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@d029fc0
+2022.02.08 at 22:05:00 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:12:11 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:12:12 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:12:24 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:12:24 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\724867879654800
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\724867879654800\FizzBuzz.class
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:12:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\724867879654800
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\724867879666400\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\724867879666400\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 26 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 49 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\724867879666400\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 生成图片成功
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\724867879664400\G:\GitHubProject\SPATool\datas\sootOutput\724867879666400
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 49 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\724867879666400\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 生成图片成功
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\724867879664400\G:\GitHubProject\SPATool\datas\sootOutput\724867879666400
+2022.02.08 at 22:12:28 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@70f15225
+2022.02.08 at 22:12:29 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:12:29 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@70f15225
+2022.02.08 at 22:12:30 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:15:56 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:15:58 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\725093775827400
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\725093775827400\FizzBuzz.class
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:16:10 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725093775827400
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725093775841600\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725093775841600\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 26 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725093775841600\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725093775838400FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725093775841600\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725093775838400FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 22:16:11 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@1de839a6
+2022.02.08 at 22:16:12 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:475 height:765
+2022.02.08 at 22:16:13 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: [Ljava.lang.String;@1de839a6
+2022.02.08 at 22:16:14 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:879 height:1245
+2022.02.08 at 22:17:55 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod725236976202300
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod725236976202300成功
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod725236976202300
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod725236976202300成功
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:18:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725211975627000
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：tmethod725236976202300
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725211975641600\tmethod725236976202300 void main(java.lang.String[]).dot
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 26 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725211975641600\tmethod725236976202300 void main(java.lang.String[]).dot
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725211975638300tmethod725236976202300 void main(java.lang.String[]).png
+2022.02.08 at 22:18:20 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725211975638300tmethod725236976202300 void main(java.lang.String[]).png
+2022.02.08 at 22:18:21 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:20:36 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod725379782119500
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod725379782119500成功
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod725379782119500
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod725379782119500成功
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725373235283300
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：tmethod725379782119500
+2022.02.08 at 22:20:42 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725373235293300\tmethod725379782119500 void main(java.lang.String[]).dot
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 26 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 48 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725373235293300\tmethod725379782119500 void main(java.lang.String[]).dot
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 生成图片成功
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725373235291300\tmethod725379782119500 void main(java.lang.String[]).png
+2022.02.08 at 22:20:43 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725373235291300\tmethod725379782119500 void main(java.lang.String[]).png
+2022.02.08 at 22:20:44 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:23:11 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod725536286069400
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod725536286069400成功
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod725536286069400
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod725536286069400成功
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:23:18 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725528509411000
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：tmethod725536286069400
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725528509422000\tmethod725536286069400 void main(java.lang.String[]).dot
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 27 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 50 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725528509422000\tmethod725536286069400 void main(java.lang.String[]).dot
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 51 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\725528509422000\tmethod725536286069400 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\725528509420000\tmethod725536286069400 void main(java.lang.String[]).png]
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 生成图片成功
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 54 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725528509420000\tmethod725536286069400 void main(java.lang.String[]).png
+2022.02.08 at 22:23:19 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725528509420000\tmethod725536286069400 void main(java.lang.String[]).png
+2022.02.08 at 22:23:20 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:24:21 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod725604514541500
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod725604514541500成功
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod725604514541500
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod725604514541500成功
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725598064586700
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：tmethod725604514541500
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725598064605700\tmethod725604514541500 void main(java.lang.String[]).dot
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725598064605700\tmethod725604514541500 void main(java.lang.String[]).dot
+2022.02.08 at 22:24:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\725598064605700\tmethod725604514541500 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\725598064601600\tmethod725604514541500 void main(java.lang.String[]).png]
+2022.02.08 at 22:24:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:24:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725598064601600\tmethod725604514541500 void main(java.lang.String[]).png
+2022.02.08 at 22:24:28 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725598064601600\tmethod725604514541500 void main(java.lang.String[]).png
+2022.02.08 at 22:24:29 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:26:51 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\725598064586700
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\725598064586700\FizzBuzz.class
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:27:03 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725598064586700
+2022.02.08 at 22:27:03 CST ERROR com.sumsec.core.cfg.Generate 66 DotG - 生成Dot错误
+2022.02.08 at 22:27:03 CST ERROR com.sumsec.core.cfg.Generate 70 DotG - This operation requires resolving level SIGNATURES but FizzBuzz is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(FizzBuzz,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\725598064586700
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.SelectC 29 selectFile - 文件已存在，不需要复制
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.Generate 42 DotG - 准备环境 prepare
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725598064586700
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:27:04 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:27:04 CST ERROR com.sumsec.core.cfg.Generate 66 DotG - 生成Dot错误
+2022.02.08 at 22:27:04 CST ERROR com.sumsec.core.cfg.Generate 70 DotG - Phase jtp.printcfg already in pack
+2022.02.08 at 22:29:36 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:29:38 CST INFO  com.sumsec.ui.mainController 86 CFGFile - 选择class文件
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\725912927095700
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\725912927095700\FizzBuzz.class
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.Generate 43 DotG - 准备环境 prepare
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:29:49 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\725912927095700
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 22:29:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void fizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void fizzBuzz(int).png]
+2022.02.08 at 22:29:51 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:29:51 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 22:29:51 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 22:29:51 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\725912927113000\FizzBuzz void printFizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void printFizzBuzz(int).png]
+2022.02.08 at 22:29:52 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:29:52 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 22:29:52 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 22:29:53 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:475 height:765
+2022.02.08 at 22:29:54 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\725912927108400\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 22:29:55 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:879 height:1245
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\725912927095700
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 29 selectFile - 文件已存在，不需要复制
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 22:31:57 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:31:57 CST ERROR com.sumsec.core.cfg.Generate 66 DotG - 生成Dot错误
+2022.02.08 at 22:31:57 CST ERROR com.sumsec.core.cfg.Generate 70 DotG - Phase jtp.printcfg already in pack
+2022.02.08 at 22:34:04 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod726197094546300
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod726197094546300成功
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod726197094546300
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod726197094546300成功
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.Generate 43 DotG - 准备环境 prepare
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:34:19 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\726180910270900
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.Generate 59 DotG - 开始生成cfg图
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.Generate 60 DotG - 生成的文件名为：tmethod726197094546300
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.Generate 61 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - cfg图生成完成
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\726180910287200\tmethod726197094546300 void main(java.lang.String[]).dot
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\726180910287200\tmethod726197094546300 void main(java.lang.String[]).dot
+2022.02.08 at 22:34:20 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\726180910287200\tmethod726197094546300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\726180910284300\tmethod726197094546300 void main(java.lang.String[]).png]
+2022.02.08 at 22:34:21 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:34:21 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\726180910284300\tmethod726197094546300 void main(java.lang.String[]).png
+2022.02.08 at 22:34:21 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\726180910284300\tmethod726197094546300 void main(java.lang.String[]).png
+2022.02.08 at 22:34:22 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:43:57 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod726775049762100
+2022.02.08 at 22:43:57 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod726775049762100成功
+2022.02.08 at 22:43:57 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:43:57 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod726775049762100
+2022.02.08 at 22:43:57 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod726775049762100成功
+2022.02.08 at 22:43:57 CST ERROR com.sumsec.core.cfg.Generate 66 DotG - 生成Dot错误
+2022.02.08 at 22:43:57 CST ERROR com.sumsec.core.cfg.Generate 70 DotG - This operation requires resolving level SIGNATURES but tmethod726775049762100 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod726775049762100,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:45:27 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod726872626188600
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod726872626188600成功
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod726872626188600
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod726872626188600成功
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\726864646700600
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod726872626188600
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\726864646715700\tmethod726872626188600 void main(java.lang.String[]).dot
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\726864646715700\tmethod726872626188600 void main(java.lang.String[]).dot
+2022.02.08 at 22:45:35 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\726864646715700\tmethod726872626188600 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\726864646711600\tmethod726872626188600 void main(java.lang.String[]).png]
+2022.02.08 at 22:45:36 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:45:36 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\726864646711600\tmethod726872626188600 void main(java.lang.String[]).png
+2022.02.08 at 22:45:36 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\726864646711600\tmethod726872626188600 void main(java.lang.String[]).png
+2022.02.08 at 22:45:37 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:46:59 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod726957201313300
+2022.02.08 at 22:46:59 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod726957201313300成功
+2022.02.08 at 22:46:59 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:46:59 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod726957201313300
+2022.02.08 at 22:46:59 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod726957201313300成功
+2022.02.08 at 22:46:59 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 22:46:59 CST ERROR com.sumsec.core.cfg.Generate 73 DotG - This operation requires resolving level SIGNATURES but tmethod726957201313300 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod726957201313300,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:48:42 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727101044778100
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727101044778100成功
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：hellworld
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727101044778100
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727101044778100成功
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:49:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727059319416500
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727101044778100
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\727059319434900\tmethod727101044778100 void hellworld().dot
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\727059319434900\tmethod727101044778100 void hellworld().dot
+2022.02.08 at 22:49:24 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\727059319434900\tmethod727101044778100 void hellworld().dot, -o, G:\GitHubProject\SPATool\result\727059319429900\tmethod727101044778100 void hellworld().png]
+2022.02.08 at 22:49:25 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:49:25 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\727059319429900\tmethod727101044778100 void hellworld().png
+2022.02.08 at 22:49:25 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\727059319429900\tmethod727101044778100 void hellworld().png
+2022.02.08 at 22:49:26 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:331 height:477
+2022.02.08 at 22:49:40 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727117890435000
+2022.02.08 at 22:49:40 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727117890435000成功
+2022.02.08 at 22:49:40 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：hellworld
+2022.02.08 at 22:49:40 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727117890435000
+2022.02.08 at 22:49:40 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727117890435000成功
+2022.02.08 at 22:49:40 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 22:49:40 CST ERROR com.sumsec.core.cfg.Generate 73 DotG - This operation requires resolving level SIGNATURES but tmethod727117890435000 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod727117890435000,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:50:06 CST INFO  com.sumsec.ui.mainController 87 CFGFile - 选择class文件
+2022.02.08 at 22:50:07 CST INFO  com.sumsec.ui.mainController 87 CFGFile - 选择class文件
+2022.02.08 at 22:50:13 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 22:50:13 CST INFO  com.sumsec.ui.mainController 96 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:50:23 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:50:23 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\727059319416500
+2022.02.08 at 22:50:23 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\727059319416500\tmethod637400787345300.class
+2022.02.08 at 22:50:23 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 22:50:23 CST ERROR com.sumsec.core.cfg.Generate 73 DotG - This operation requires resolving level SIGNATURES but tmethod637400787345300 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod637400787345300,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:50:40 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:50:43 CST INFO  com.sumsec.ui.mainController 87 CFGFile - 选择class文件
+2022.02.08 at 22:50:49 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 22:50:49 CST INFO  com.sumsec.ui.mainController 96 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\727177453898600
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\727177453898600\tmethod637400787345300.class
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:50:50 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727177453898600
+2022.02.08 at 22:50:51 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:50:51 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 22:50:51 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:51:24 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:51:25 CST INFO  com.sumsec.ui.mainController 87 CFGFile - 选择class文件
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.ui.mainController 95 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.ui.mainController 96 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\727221179355500
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\727221179355500\tmethod637400787345300.class
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:51:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727221179355500
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\727221179367500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\727221179367500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 22:51:38 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\727221179367500\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\727221179364100\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 22:51:39 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:51:39 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\727221179364100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 22:51:39 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\727221179364100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 22:51:40 CST INFO  com.sumsec.core.cfg.ImageUtil 46 setImage - 图片大小 width:432 height:765
+2022.02.08 at 22:52:29 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727286539401300
+2022.02.08 at 22:52:29 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727286539401300成功
+2022.02.08 at 22:52:29 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:52:29 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727286539401300
+2022.02.08 at 22:52:29 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727286539401300成功
+2022.02.08 at 22:52:29 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 22:52:29 CST ERROR com.sumsec.core.cfg.Generate 73 DotG - This operation requires resolving level SIGNATURES but tmethod727286539401300 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod727286539401300,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 22:53:24 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727348277255500
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727348277255500成功
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727348277255500
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727348277255500成功
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:53:30 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727341250078500
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727348277255500
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\727341250087800\tmethod727348277255500 void main(java.lang.String[]).dot
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\727341250087800\tmethod727348277255500 void main(java.lang.String[]).dot
+2022.02.08 at 22:53:31 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\727341250087800\tmethod727348277255500 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\727341250085900\tmethod727348277255500 void main(java.lang.String[]).png]
+2022.02.08 at 22:53:32 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:53:32 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\727341250085900\tmethod727348277255500 void main(java.lang.String[]).png
+2022.02.08 at 22:53:32 CST INFO  com.sumsec.core.cfg.ImageUtil 29 setImage - iURL: G:\GitHubProject\SPATool\result\727341250085900\tmethod727348277255500 void main(java.lang.String[]).png
+2022.02.08 at 22:53:33 CST ERROR com.sumsec.core.cfg.ImageUtil 37 setImage - 文件不存在
+2022.02.08 at 22:56:47 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727550951421000
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727550951421000成功
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727550951421000
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727550951421000成功
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:56:53 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727544690089500
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727550951421000
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\727544690098800\tmethod727550951421000 void main(java.lang.String[]).dot
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\727544690098800\tmethod727550951421000 void main(java.lang.String[]).dot
+2022.02.08 at 22:56:54 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\727544690098800\tmethod727550951421000 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\727544690096900\tmethod727550951421000 void main(java.lang.String[]).png]
+2022.02.08 at 22:56:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 22:56:55 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\727544690096900\tmethod727550951421000 void main(java.lang.String[]).png
+2022.02.08 at 22:56:55 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\727544690096900\tmethod727550951421000 void main(java.lang.String[]).png
+2022.02.08 at 22:56:56 CST ERROR com.sumsec.core.cfg.ImageUtil 38 setImage - 文件不存在
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727581204014800
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727581204014800成功
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727581204014800
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727581204014800成功
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 22:57:23 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727544690089500
+2022.02.08 at 22:57:23 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 22:57:23 CST ERROR com.sumsec.core.cfg.Generate 73 DotG - This operation requires resolving level SIGNATURES but tmethod727581204014800 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod727581204014800,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 23:00:14 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727758570927000
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727758570927000成功
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727758570927000
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727758570927000成功
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727751595242100\727758568811100
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727758570927000
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - cfg图生成完成
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\727751595252600\727758568817500\tmethod727758570927000 void main(java.lang.String[]).dot
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\727751595252600\727758568817500\tmethod727758570927000 void main(java.lang.String[]).dot
+2022.02.08 at 23:00:21 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\727751595252600\727758568817500\tmethod727758570927000 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\727751595250700\727758568816000\tmethod727758570927000 void main(java.lang.String[]).png]
+2022.02.08 at 23:00:22 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:00:22 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\727751595250700\727758568816000\tmethod727758570927000 void main(java.lang.String[]).png
+2022.02.08 at 23:00:22 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\727751595250700\727758568816000\tmethod727758570927000 void main(java.lang.String[]).png
+2022.02.08 at 23:00:23 CST ERROR com.sumsec.core.cfg.ImageUtil 38 setImage - 文件不存在
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727779949333700
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727779949333700成功
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727779949333700
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727779949333700成功
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727751595242100\727758568811100\727779949229300
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727779949333700
+2022.02.08 at 23:00:42 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:00:42 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 23:00:44 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - Phase jtp.printcfg already in pack
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.core.TMethod 26 genMethod - 开始生成模板类：tmethod727784094468700
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.core.TMethod 34 genMethod - 生成模板类：tmethod727784094468700成功
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.core.TMethod 35 genMethod - 开始生成模板方法：main
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.uitls.GenClass 32 genClassM - 开始生成class： tmethod727784094468700
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.uitls.GenClass 41 genClassM - 生成class： tmethod727784094468700成功
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.Generate 45 DotG - 准备环境 prepare
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\727751595242100\727758568811100\727779949229300\727784094370100
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.Generate 62 DotG - 开始生成cfg图
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.Generate 63 DotG - 生成的文件名为：tmethod727784094468700
+2022.02.08 at 23:00:46 CST INFO  com.sumsec.core.cfg.Generate 64 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:00:46 CST ERROR com.sumsec.core.cfg.Generate 69 DotG - 生成Dot错误
+2022.02.08 at 23:00:50 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - Phase jtp.printcfg already in pack
+2022.02.08 at 23:32:32 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:32:34 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:32:51 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:32:51 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729709467356600
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729709467356600\FizzBuzz.class
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 准备环境 prepare
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729709467356600
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:32:52 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:32:52 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - 生成Dot错误
+2022.02.08 at 23:32:56 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - argument type mismatch
+2022.02.08 at 23:34:03 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:34:04 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729793979545700
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729793979545700\FizzBuzz.class
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.Generate 48 DotG - 准备环境 prepare
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:34:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729793979545700
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - cfg图生成完成
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 23:34:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void fizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void fizzBuzz(int).png]
+2022.02.08 at 23:34:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:34:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 23:34:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 23:34:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\729793979551900\FizzBuzz void printFizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void printFizzBuzz(int).png]
+2022.02.08 at 23:34:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:34:19 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 23:34:19 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 23:34:20 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:475 height:765
+2022.02.08 at 23:34:20 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\729793979550500\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 23:34:21 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:879 height:1245
+2022.02.08 at 23:34:30 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:34:37 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:34:37 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729816569946900
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729816569946900\tmethod637400787345300.class
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:34:39 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:34:39 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - 生成Dot错误
+2022.02.08 at 23:34:40 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - null
+2022.02.08 at 23:35:32 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:35:34 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:35:47 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:35:47 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:35:47 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:35:47 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729885365699200
+2022.02.08 at 23:35:47 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729885365699200\FizzBuzz.class
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729885365699200
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - cfg图生成完成
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void fizzBuzz(int).dot
+2022.02.08 at 23:35:48 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void fizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void fizzBuzz(int).png]
+2022.02.08 at 23:35:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:35:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 23:35:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void printFizzBuzz(int).dot
+2022.02.08 at 23:35:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\729885365705200\FizzBuzz void printFizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void printFizzBuzz(int).png]
+2022.02.08 at 23:35:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:35:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 23:35:50 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void fizzBuzz(int).png
+2022.02.08 at 23:35:51 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:475 height:765
+2022.02.08 at 23:35:52 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\729885365703700\FizzBuzz void printFizzBuzz(int).png
+2022.02.08 at 23:35:53 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:879 height:1245
+2022.02.08 at 23:35:57 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729904560701900
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729904560701900\tmethod637400787345300.class
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729904560701900
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:36:07 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:36:07 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - 生成Dot错误
+2022.02.08 at 23:36:09 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - null
+2022.02.08 at 23:36:30 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:36:36 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:36:36 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729934781882900
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729934781882900\FizzBuzz.class
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729934781882900
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:36:37 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:36:37 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - 生成Dot错误
+2022.02.08 at 23:36:38 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - null
+2022.02.08 at 23:37:25 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:37:27 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\729997262480900
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\729997262480900\tmethod637400787345300.class
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:37:39 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\729997262480900
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - cfg图生成完成
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\729997262489200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\729997262489200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:37:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\729997262489200\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\729997262487100\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:37:41 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:37:41 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\729997262487100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:37:41 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\729997262487100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:37:42 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:37:46 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730013923997100
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730013923997100\tmethod637400787345300.class
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730013923997100
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:37:56 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:37:56 CST ERROR com.sumsec.core.cfg.Generate 74 DotG - 生成Dot错误
+2022.02.08 at 23:37:58 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - null
+2022.02.08 at 23:40:38 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:40:40 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730189824958300
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730189824958300\tmethod637400787345300.class
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730189824958300
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:40:52 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:40:53 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - cfg图生成完成
+2022.02.08 at 23:40:53 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730189824963700\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:40:53 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:40:53 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730189824963700\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:40:53 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730189824963700\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730189824962400\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:40:54 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:40:54 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730189824962400\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:40:54 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730189824962400\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:40:55 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:40:56 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730204918046900
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730204918046900\tmethod637400787345300.class
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.Generate 50 DotG - 准备环境 prepare
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730204918046900
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.Generate 65 DotG - 开始生成cfg图
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:41:07 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - cfg图生成完成
+2022.02.08 at 23:42:37 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:42:38 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:42:50 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:42:50 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730293848542000
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730293848542000\tmethod637400787345300.class
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730293848542000
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 开始生成cfg图
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.Generate 68 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - cfg图生成完成
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:42:58 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:42:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:42:59 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:42:59 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:43:00 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:43:09 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:43:15 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:43:15 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:43:17 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:43:17 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730293848542000
+2022.02.08 at 23:43:17 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730293848542000\FizzBuzz.class
+2022.02.08 at 23:43:17 CST ERROR com.sumsec.core.cfg.Generate 75 DotG - 生成Dot错误
+2022.02.08 at 23:46:29 CST ERROR com.sumsec.core.cfg.Generate 80 DotG - This operation requires resolving level SIGNATURES but FizzBuzz is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(FizzBuzz,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.08 at 23:46:31 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730293848542000
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 29 selectFile - 文件已存在，不需要复制
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 开始生成cfg图
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.Generate 68 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - cfg图生成完成
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:46:42 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730293848554900\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:46:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:46:43 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:46:43 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730293848552500\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:46:44 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:48:56 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:48:58 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:49:10 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:49:10 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730673526070600
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730673526070600\tmethod637400787345300.class
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730673526070600
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 开始生成cfg图
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.Generate 68 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - cfg图生成完成
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:49:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:49:13 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:49:13 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:49:13 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:49:15 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:49:16 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:49:27 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:49:27 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730673526070600
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730673526070600\FizzBuzz.class
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.Generate 66 DotG - 开始生成cfg图
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.Generate 67 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.Generate 68 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - cfg图生成完成
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:49:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730673526082500\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:49:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:49:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:49:29 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730673526080100\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:49:30 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:52:52 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:52:55 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:53:07 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:53:07 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730909716870500
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730909716870500\tmethod637400787345300.class
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\730909716870500
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - 开始生成cfg图
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:53:09 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:53:10 CST INFO  com.sumsec.core.cfg.Generate 77 DotG - cfg图生成完成
+2022.02.08 at 23:53:10 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:53:10 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:53:10 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:53:10 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:53:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:53:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:53:11 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:53:12 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:53:15 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:53:25 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:53:25 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\730909716870500
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\730909716870500\FizzBuzz.class
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.Generate 71 DotG - 开始生成cfg图
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.Generate 77 DotG - cfg图生成完成
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:53:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\730909716885200\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:53:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:53:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:53:29 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\730909716882900\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:53:30 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:55:24 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.08 at 23:55:28 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\731061007735100
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\731061007735100\tmethod637400787345300.class
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\731061007735100
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.Generate 78 DotG - cfg图生成完成
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\731061007751600\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\731061007751600\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.08 at 23:55:40 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\731061007751600\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\731061007746200\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.08 at 23:55:41 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.08 at 23:55:41 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\731061007746200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:55:41 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\731061007746200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.08 at 23:55:42 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.08 at 23:55:46 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.08 at 23:55:56 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.08 at 23:55:56 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\731061007735100
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\731061007735100\FizzBuzz.class
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：FizzBuzz
+2022.02.08 at 23:55:57 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:04:57 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:04:59 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\731634243665700
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\731634243665700\FizzBuzz.class
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\731634243665700
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：FizzBuzz
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.Generate 78 DotG - cfg图生成完成
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void fizzBuzz(int).dot
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void printFizzBuzz(int).dot
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void fizzBuzz(int).dot
+2022.02.09 at 00:05:11 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void fizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void fizzBuzz(int).png]
+2022.02.09 at 00:05:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:05:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void fizzBuzz(int).png
+2022.02.09 at 00:05:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void printFizzBuzz(int).dot
+2022.02.09 at 00:05:12 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\731634243676900\FizzBuzz void printFizzBuzz(int).dot, -o, G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void printFizzBuzz(int).png]
+2022.02.09 at 00:05:14 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:05:14 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void printFizzBuzz(int).png
+2022.02.09 at 00:05:14 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void fizzBuzz(int).png
+2022.02.09 at 00:05:15 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:475 height:765
+2022.02.09 at 00:05:15 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\731634243674400\FizzBuzz void printFizzBuzz(int).png
+2022.02.09 at 00:05:16 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:879 height:1245
+2022.02.09 at 00:05:21 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:05:31 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:05:31 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:05:31 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:05:31 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\731634243665700
+2022.02.09 at 00:05:31 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\731634243665700\tmethod637400787345300.class
+2022.02.09 at 00:05:31 CST ERROR com.sumsec.core.cfg.Generate 81 DotG - 生成Dot错误
+2022.02.09 at 00:05:34 CST ERROR com.sumsec.core.cfg.Generate 86 DotG - This operation requires resolving level SIGNATURES but tmethod637400787345300 is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(tmethod637400787345300,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.09 at 00:15:28 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:15:29 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:15:41 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:15:41 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:15:54 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:15:54 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732265255591300
+2022.02.09 at 00:15:54 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732265255591300\FizzBuzz.class
+2022.02.09 at 00:16:33 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:16:44 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:16:44 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:16:44 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:16:44 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732265255591300
+2022.02.09 at 00:16:44 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732265255591300\tmethod637400787345300.class
+2022.02.09 at 00:18:10 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:18:21 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:18:21 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:18:21 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:18:21 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732265255591300
+2022.02.09 at 00:18:21 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732265255591300\tmethod637400787345300.class
+2022.02.09 at 00:19:38 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:19:39 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732514903723200
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732514903723200\FizzBuzz.class
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.Generate 91 DotG - 线程启动
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.Generate$1 51 run - 准备环境 prepare
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:19:51 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\732514903723200
+2022.02.09 at 00:19:52 CST INFO  com.sumsec.core.cfg.Generate$1 75 run - 开始生成cfg图
+2022.02.09 at 00:19:52 CST INFO  com.sumsec.core.cfg.Generate$1 76 run - 生成的文件名为：FizzBuzz
+2022.02.09 at 00:19:52 CST INFO  com.sumsec.core.cfg.Generate$1 77 run - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:19:52 CST INFO  com.sumsec.core.cfg.Generate$1 79 run - cfg图生成完成
+2022.02.09 at 00:23:50 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:23:57 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732767074854700
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732767074854700\tmethod637400787345300.class
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:24:08 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\732767074854700
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\732767074866600\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\732767074866600\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:24:09 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\732767074866600\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\732767074864200\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 00:24:10 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:24:10 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\732767074864200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:24:10 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\732767074864200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:24:11 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 00:24:13 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:24:47 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:24:55 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:24:55 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:24:59 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:24:59 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732767074854700
+2022.02.09 at 00:24:59 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732767074854700\FizzBuzz.class
+2022.02.09 at 00:24:59 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - 生成Dot错误
+2022.02.09 at 00:26:14 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:26:15 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:26:27 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:26:27 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732910812522400
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732910812522400\tmethod637400787345300.class
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\732910812522400
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\732910812541800\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\732910812541800\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:26:29 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\732910812541800\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\732910812538000\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 00:26:30 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:26:30 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\732910812538000\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:26:30 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\732910812538000\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:26:31 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 00:26:35 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:26:46 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:26:46 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:26:46 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:26:46 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\732910812522400
+2022.02.09 at 00:26:46 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\732910812522400\FizzBuzz.class
+2022.02.09 at 00:26:46 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - 生成Dot错误
+2022.02.09 at 00:56:03 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:56:05 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734699942502500
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734699942502500\tmethod637400787345300.class
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:56:16 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\734699942502500
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\734699942522300\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\734699942522300\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:56:17 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\734699942522300\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\734699942518200\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 00:56:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:56:18 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\734699942518200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:56:18 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\734699942518200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:56:19 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 00:56:21 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:56:32 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:56:32 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:56:32 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:56:32 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734699942502500
+2022.02.09 at 00:56:32 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734699942502500\FizzBuzz.class
+2022.02.09 at 00:56:32 CST ERROR com.sumsec.core.cfg.Generate 79 DotG - 生成Dot错误
+2022.02.09 at 00:56:34 CST ERROR com.sumsec.core.cfg.Generate 85 DotG - This operation requires resolving level SIGNATURES but FizzBuzz is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(FizzBuzz,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+2022.02.09 at 00:57:36 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 00:57:37 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734792960596300
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734792960596300\tmethod637400787345300.class
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\734792960596300
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 00:57:48 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:57:49 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 00:57:49 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\734792960608200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:57:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 00:57:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\734792960608200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 00:57:49 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\734792960608200\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\734792960605800\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 00:57:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 00:57:50 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\734792960605800\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:57:50 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\734792960605800\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 00:57:51 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 00:57:52 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734792960596300
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734792960596300\FizzBuzz.class
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：FizzBuzz
+2022.02.09 at 00:58:03 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 00:59:07 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 01:00:02 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 01:00:13 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 01:00:13 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 01:00:18 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 01:00:18 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734884424044600
+2022.02.09 at 01:00:18 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734884424044600\tmethod637400787345300.class
+2022.02.09 at 01:00:18 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 01:00:18 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 01:00:22 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 01:00:22 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\734884424044600
+2022.02.09 at 01:00:22 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 01:00:22 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 01:00:22 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 01:00:24 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 01:00:27 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\734884424075200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 01:00:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 01:00:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\734884424075200\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 01:00:27 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\734884424075200\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\734884424069200\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 01:00:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 01:00:28 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\734884424069200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 01:00:28 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\734884424069200\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 01:00:29 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 01:00:33 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 01:00:39 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 01:00:39 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\734884424044600
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\734884424044600\FizzBuzz.class
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：FizzBuzz
+2022.02.09 at 01:00:42 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 01:01:53 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.09 at 01:01:55 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 01:02:12 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：tmethod637400787345300.class
+2022.02.09 at 01:02:12 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 01:02:14 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\tmethod637400787345300.class
+2022.02.09 at 01:02:14 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\735050456052300
+2022.02.09 at 01:02:14 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\735050456052300\tmethod637400787345300.class
+2022.02.09 at 01:02:14 CST INFO  com.sumsec.core.cfg.Generate 49 DotG - 准备环境 prepare
+2022.02.09 at 01:02:14 CST INFO  com.sumsec.core.cfg.uitls.Prepare 20 Envprepare - 检测环境
+2022.02.09 at 01:02:17 CST INFO  com.sumsec.core.cfg.uitls.Prepare 25 Envprepare - CFG环境设置完成
+2022.02.09 at 01:02:17 CST INFO  com.sumsec.core.cfg.uitls.Prepare 26 Envprepare - CFG Home: G:\GitHubProject\SPATool\datas\cfg\735050456052300
+2022.02.09 at 01:02:17 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 01:02:17 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：tmethod637400787345300
+2022.02.09 at 01:02:17 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph
+2022.02.09 at 01:02:22 CST INFO  com.sumsec.core.cfg.Generate 76 DotG - cfg图生成完成
+2022.02.09 at 01:02:25 CST INFO  com.sumsec.core.cfg.uitls.FindDot 29 findDotCFG - 找到dot文件：G:\GitHubProject\SPATool\datas\sootOutput\735050456064500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 01:02:25 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 29 isWindowsOS - 当前操作系统为：Windows 10
+2022.02.09 at 01:02:25 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 52 RunCmd - 开始生成图片 G:\GitHubProject\SPATool\datas\sootOutput\735050456064500\tmethod637400787345300 void main(java.lang.String[]).dot
+2022.02.09 at 01:02:25 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 53 RunCmd - 正在执行命令 [cmd.exe, /c, dot, -Tpng, G:\GitHubProject\SPATool\datas\sootOutput\735050456064500\tmethod637400787345300 void main(java.lang.String[]).dot, -o, G:\GitHubProject\SPATool\result\735050456061600\tmethod637400787345300 void main(java.lang.String[]).png]
+2022.02.09 at 01:02:26 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 56 RunCmd - 生成图片成功
+2022.02.09 at 01:02:26 CST INFO  com.sumsec.core.cfg.uitls.OSUtil 57 RunCmd - 图片路径为：G:\GitHubProject\SPATool\result\735050456061600\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 01:02:26 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\735050456061600\tmethod637400787345300 void main(java.lang.String[]).png
+2022.02.09 at 01:02:27 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:432 height:765
+2022.02.09 at 01:02:33 CST INFO  com.sumsec.ui.mainController 85 CFGFile - 选择class文件
+2022.02.09 at 01:02:38 CST INFO  com.sumsec.ui.mainController 93 CFGFile - 选择的文件名为：FizzBuzz.class
+2022.02.09 at 01:02:38 CST INFO  com.sumsec.ui.mainController 94 CFGFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 22 selectFile - select file: G:\GitHubProject\SPATool\FizzBuzz.class
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 23 selectFile - 复制Class文件到：G:\GitHubProject\SPATool\datas\cfg\735050456052300
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.uitls.SelectC 27 selectFile - 复制成功 G:\GitHubProject\SPATool\datas\cfg\735050456052300\FizzBuzz.class
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.Generate 72 DotG - 开始生成cfg图
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.Generate 73 DotG - 生成的文件名为：FizzBuzz
+2022.02.09 at 01:02:40 CST INFO  com.sumsec.core.cfg.Generate 74 DotG - 生成的图类型为：BriefUnitGraph

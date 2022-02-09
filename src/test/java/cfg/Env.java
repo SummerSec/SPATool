@@ -32,4 +32,7 @@ public class Env {
             System.out.println(key +":" +value);
         }
     }
+    public void hellworld(){
+        System.out.println("hello world");
+    }
 }

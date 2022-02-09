@@ -2,7 +2,7 @@ package com.sumsec.core.cfg.uitls;
 
 import com.sumsec.core.cfg.core.TMethod;
 import com.sumsec.core.cfg.core.Template;
-import com.sumsec.uitl.ConstatField;
+import com.sumsec.util.ConstatField;
 import javassist.CtClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

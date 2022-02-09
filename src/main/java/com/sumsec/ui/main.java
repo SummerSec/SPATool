@@ -1,5 +1,6 @@
 package com.sumsec.ui;
 
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,8 +8,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import static javafx.application.Application.launch;
 
 /**
  * @ClassName: main
@@ -28,11 +27,17 @@ public class main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/gui.fxml"));
         primaryStage.setTitle("Static Analysis Tool by SummerSec");
+//        Image icon = new Image(String.valueOf(getClass().getResource("/icon.png")));
+//        primaryStage.getIcons().add(icon);
+
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
         logger.info("Application started");
 
+
     }
     public main(){}
+
+
 }

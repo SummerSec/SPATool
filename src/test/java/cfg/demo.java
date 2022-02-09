@@ -12,11 +12,8 @@ import java.util.Locale;
  **/
 public class demo {
     public static void main(String[] args) {
-        System.out.println(test.str);
-        test.str = "hello";
-        System.out.println(test.str);
-        test.str = "world";
-        System.out.println(test.str);
-        System.out.println(System.getenv("PATH").toLowerCase().contains("graphviz"));
+        String str = "G:\\GitHubProject\\SPATool\\datas\\sootOutput\\724867879666400\\FizzBuzz void printFizzBuzz(int).dot";
+        System.out.println(str.substring(str.lastIndexOf("\\") + 1, str.lastIndexOf(".")));
+
     }
 }
