@@ -6,11 +6,13 @@ import com.sumsec.core.cfg.core.TMethod;
 import com.sumsec.core.cfg.uitls.GenClass;
 import com.sumsec.core.cfg.uitls.Prepare;
 import com.sumsec.util.ConstatField;
+import com.sumsec.util.DFS;
 import javafx.scene.control.Alert;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import soot.Scene;
+import soot.SootClass;
 import soot.options.Options;
 import soot.tools.CFGViewer;
 
@@ -59,9 +61,8 @@ public class Generate {
             }else {
                 filename = TMethod.clsName;
             }
-            Scene.v().addBasicClass(filename,SIGNATURES);
-//            Scene.v().loadClassAndSupport(filename);
-//            Scene.v().loadNecessaryClasses();
+            ConstatField.filename = filename;
+            SootClass sc = Scene.v().loadClassAndSupport(filename);
             String[] arg ;
             if (ConstatField.flag1){
                 arg = new String[]{filename, "--graph=" + graphtype,"-force-overwrite","-d",ConstatField.sootOutputTemp};

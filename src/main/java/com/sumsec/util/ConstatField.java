@@ -1,6 +1,7 @@
 package com.sumsec.util;
 
 import com.sumsec.core.cfg.core.CFGViewerOver;
+import soot.Main;
 import soot.tools.CFGViewer;
 
 import java.io.File;
@@ -27,8 +28,9 @@ public class ConstatField {
     public static boolean flag1 = true;
     public static String filename ;
     public static String graphtype;
+    public static Main main = Main.v();
 
-    public static CFGViewer viewer = new CFGViewer();
+    public static CFGViewer viewer ;
 
 
 }

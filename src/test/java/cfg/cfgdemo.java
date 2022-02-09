@@ -1,5 +1,7 @@
 package cfg;
 
+import com.sumsec.core.cfg.core.CFGViewerOver;
+import com.sumsec.util.ConstatField;
 import soot.*;
 import soot.options.Options;
 import soot.toolkits.graph.ClassicCompleteUnitGraph;
@@ -37,13 +39,17 @@ public class cfgdemo {
         Options.v().set_allow_phantom_refs(true);
         Options.v().set_soot_classpath(System.getProperty("user.dir"));
         Scene.v().loadClassAndSupport("FizzBuzz");
+        Scene.v().loadClassAndSupport("tmethod637400787345300");
 
         Scene.v().loadNecessaryClasses();
 //        Scene.v().addBasicClass("FizzBuzz", SootClass.BODIES);
         String[] arg = new String[]{ "FizzBuzz", "--graph=BriefUnitGraph","-d", "output"};
         try {
-            CFGViewer.main(arg);
-            CFGViewer.main(arg);
+            ConstatField.viewer = CFGViewerOver.CFGViewerOver();
+            CFGViewerOver.main(ConstatField.viewer, arg);
+            arg = new String[]{"tmethod637400787345300", "--graph=BriefUnitGraph"};
+//            ConstatField.viewer = CFGViewerOver.CFGViewerOver();
+            CFGViewerOver.main(ConstatField.viewer, arg);
         }catch (Exception e){
             e.printStackTrace();
         }

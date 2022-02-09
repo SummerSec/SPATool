@@ -95,6 +95,12 @@ public class mainController {
     }
     // 生成cfg的dot文件
     public void CFGG(ActionEvent actionEvent) {
+        if (!ConstatField.flag1) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Warning");
+            alert.setContentText("请重新打开程序在使用生成CFG功能模块！");
+            alert.show();
+        }
         Generate generate = new Generate();
         boolean f = false;
         if (!CFGFilePath.equals("")) {
@@ -116,6 +122,7 @@ public class mainController {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Error");
                 alert.setContentText("请输入方法名和方法内容");
+                alert.show();
                 System.out.println("请输入方法名和方法内容");
             }
         }
@@ -128,6 +135,7 @@ public class mainController {
             String[] path = imageUtil.Dot2Image(mName.getText());
             imageUtil.setImage(path);
         }
+
     }
 
     // 保存CFG的dot文件
