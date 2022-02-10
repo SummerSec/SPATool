@@ -1460,3 +1460,4 @@ Otherwise, try whole-program mode (-w).
 2022.02.09 at 15:26:06 CST INFO  com.sumsec.core.cfg.ImageUtil 30 setImage - iURL: G:\GitHubProject\SPATool\result\786869484550100\tmethod786908811732600 void main(java.lang.String[]).png
 2022.02.09 at 15:26:07 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:343 height:477
 2022.02.09 at 15:32:27 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.10 at 15:46:50 CST INFO  com.sumsec.ui.main 36 start - Application started

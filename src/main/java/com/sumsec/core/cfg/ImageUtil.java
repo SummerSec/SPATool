@@ -59,7 +59,7 @@ public class ImageUtil {
     public String[] Dot2Image(String mName){
         // TODO
         FindDot findDot = new FindDot();
-        String[] dotPath = findDot.findDotCFG(mName);
+        String[] dotPath = findDot.findDotCFG(".dot");
         OSUtil osUtil = new OSUtil();
 //        String imgPath = ConstatField.ResultTemp + ConstatField.separator + mName + ".png";
         return osUtil.RunCmd(dotPath);

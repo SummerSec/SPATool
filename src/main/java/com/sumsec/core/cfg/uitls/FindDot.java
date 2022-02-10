@@ -25,7 +25,7 @@ public class FindDot {
         File[] files = file.listFiles();
         ArrayList<String> dots = new ArrayList<>();
         for (File f : files) {
-            if (f.getName().toLowerCase().contains(".dot")) {
+            if (f.getName().toLowerCase().contains(name.toLowerCase())) {
                 log.info("找到dot文件：" + f.getAbsolutePath());
                 dots.add(f.getAbsolutePath());
             }

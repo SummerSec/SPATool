@@ -21,16 +21,19 @@ public class ConstatField {
     public final static String CFGHOME = DatasHome + separator + "cfg";
     public final static String Result = HOME + separator + "result";
     public static String CFGHOMETemp = CFGHOME;
-    public static String ResultTemp = Result;
+    public static String ResultTemp = Result + separator + "cfg";
     public final static String sootOutput = "datas" + separator + "sootOutput";
     public static String sootOutputTemp = sootOutput;
     public static boolean flag = true;
     public static boolean flag1 = true;
     public static String filename ;
-    public static String graphtype;
     public static Main main = Main.v();
+    public static String ASTHome = HOME + separator + "ast";
+    public static String ASTHomeTemp = ASTHome;
+    public static String ASTResult = Result + separator + "ast";
+    public static String ASTResultTemp = Result + separator + "ast";
 
-    public static CFGViewer viewer ;
+    public static CFGViewer viewer = CFGViewerOver.CFGViewerOver();
 
 
 }

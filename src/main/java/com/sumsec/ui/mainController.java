@@ -1,9 +1,13 @@
 package com.sumsec.ui;
 
+import com.sumsec.core.ast.Parser;
+import com.sumsec.core.ast.util.JavaContent;
 import com.sumsec.core.cfg.Generate;
 import com.sumsec.core.cfg.ImageUtil;
 import com.sumsec.core.cfg.uitls.SelectC;
 import com.sumsec.util.ConstatField;
+import com.sumsec.util.SaveFile;
+import com.sumsec.util.SelectFile;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -12,14 +16,12 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
-import javafx.stage.FileChooser;
-import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import soot.coffi.CFG;
 
 import java.io.File;
+
+import static cn.hutool.core.io.FileUtil.mkdir;
 
 /**
  * @ClassName: mainController
@@ -34,20 +36,12 @@ public class mainController {
     public static String CFGFilePath = "";
     // 选择类文件位置
     public static String CFGFileName = "";
-    public static String CFGSaveFilePath = "";
-    // 保存cfg文件的位置
-    public static String CFGImagePath = "";
-    // 保存cfg图片的位置
-    public static String ASTFileContext = "";
-    // AST中 java文件内容
-    public static String ASTFilePath = "";
-    // AST 保存路径
-    public String ASTImagePath = "";
-    // AST 保存图片位置
-    public String ASTFileName = "";
-    // 保存AST文件名
-//    public String GraphType = "";
-    // graph type
+    // 选择类文件明
+
+    public static File ASTFile;
+    // 选择Java文件位置
+    public static String ASTFileName = ASTFile.getName();
+    // 选择Java文件名字
 
     @FXML
     public TextArea mC; // 方法内容
@@ -58,18 +52,14 @@ public class mainController {
     @FXML
     public ComboBox<String> FileType; // ast type
 
+    @FXML
+    public TextArea ASTFC; // ast
+
+
+
+
+
     private static Logger log = LogManager.getLogger(mainController.class);
-
-
-
-
-
-
-
-
-
-
-
 
 
     @FXML
@@ -83,11 +73,8 @@ public class mainController {
     // 选择class文件
     public void CFGFile(ActionEvent actionEvent) {
         log.info("选择class文件");
-        FileChooser fileChooser = new FileChooser();
-        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
-        fileChooser.getExtensionFilters().add(extFilter);
-        Stage stage = new Stage();
-        File file = fileChooser.showOpenDialog(stage);
+        SelectFile selectFile = new SelectFile();
+        File file = selectFile.SelectFile();
         CFGFileName = file.getName();
         CFGFilePath = file.getAbsolutePath();
         log.info("选择的文件名为：" + CFGFileName);
@@ -140,13 +127,34 @@ public class mainController {
 
     // 保存CFG的dot文件
     public void CFGSFile(ActionEvent actionEvent) {
+        SaveFile saveFile = new SaveFile();
+        saveFile.Save("dot");
 
     }
     // 导出CFG图片
     public void CFGExport(ActionEvent actionEvent) {
+       SaveFile saveFile = new SaveFile();
+       saveFile.Save("png");
     }
     // 生成AST文件
     public void ASTG(ActionEvent actionEvent) {
+        String context = ASTFC.getText();
+        Parser parser = new Parser();
+        if (!context.equals("")) {
+            log.info("输入的内容为：" + context);
+            parser.parse(context,"DOT");
+        }else if (!ASTFile.exists()){
+            log.info("正在读取文件");
+            context = JavaContent.ReadJavaContent(ASTFile);
+            parser.parse(context,"DOT");
+        }else {
+            log.info("请输入文件内容，或者选择文件");
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Warning");
+            alert.setContentText("请输入文件内容，或者选择文件");
+            alert.show();
+        }
+
     }
     // 保存AST文件
     public void ASTSave(ActionEvent actionEvent) {
@@ -159,13 +167,13 @@ public class mainController {
     }
     // 选择Java或者Class文件
     public void ASTFile(ActionEvent actionEvent) {
-        FileChooser fileChooser = new FileChooser();
-        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
-        FileChooser.ExtensionFilter extFilter1 = new FileChooser.ExtensionFilter("Java Files", "*.java");
-        fileChooser.getExtensionFilters().add(extFilter);
-        fileChooser.getExtensionFilters().add(extFilter1);
-        Stage stage = new Stage();
-        File file = fileChooser.showOpenDialog(stage);
+        SelectFile selectFile = new SelectFile();
+        ASTFile = selectFile.SelectFile();
+        ASTFileName = ASTFile.getName();
+        log.info("选择的文件名为：" + ASTFileName);
+        log.info("选择的文件路径为：" + ASTFile.getAbsolutePath());
+
+
     }
 
     public void InitCombox(){
@@ -175,15 +183,21 @@ public class mainController {
         this.graphType.setPromptText("BriefUnitGraph");
         this.graphType.setValue("BriefUnitGraph");
         this.graphType.setItems(graphs);
-        ObservableList<String> astTypes = FXCollections.observableArrayList(new String[]{"DOT", "JSON", "YAML"});
+        ObservableList<String> astTypes = FXCollections.observableArrayList(new String[]{"DOT", "JSON", "YAML","XML"});
         this.FileType.setValue("DOT");
         this.FileType.setPromptText("DOT");
         this.FileType.setItems(astTypes);
-
     }
     public void init(){
         ConstatField.CFGHOMETemp = ConstatField.CFGHOME +  ConstatField.separator + System.nanoTime();
         ConstatField.ResultTemp = ConstatField.Result + ConstatField.separator + System.nanoTime();
         ConstatField.sootOutputTemp = ConstatField.sootOutput + ConstatField.separator + System.nanoTime();
+        ConstatField.ASTHomeTemp = ConstatField.ASTHome + ConstatField.separator + System.nanoTime();
+        ConstatField.ASTResultTemp = ConstatField.ASTResult + ConstatField.separator + System.nanoTime();
+        mkdir(ConstatField.CFGHOMETemp);
+        mkdir(ConstatField.ResultTemp);
+        mkdir(ConstatField.sootOutputTemp);
+        mkdir(ConstatField.ASTHomeTemp);
+        mkdir(ConstatField.ASTResultTemp);
     }
 }
