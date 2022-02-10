@@ -140,6 +140,7 @@ public class mainController {
 
     // 保存CFG的dot文件
     public void CFGSFile(ActionEvent actionEvent) {
+
     }
     // 导出CFG图片
     public void CFGExport(ActionEvent actionEvent) {
@@ -168,7 +169,9 @@ public class mainController {
     }
 
     public void InitCombox(){
-        ObservableList<String> graphs = FXCollections.observableArrayList(new String[]{"BriefUnitGraph"});
+        ObservableList<String> graphs = FXCollections.observableArrayList(new String[]{"BriefUnitGraph","ExceptionalUnitGraph","CompleteUnitGraph",
+        "TrapUnitGraph","ClassicCompleteUnitGraph","BriefBlockGraph","ExceptionalBlockGraph","CompleteBlockGraph","ClassicCompleteBlockGraph","ArrayRefBlockGraph",
+        "ZonedBlockGraph","AltArrayRefBlockGraph","AltBriefUnitGraph","AltCompleteUnitGraph","AltTrapUnitGraph","AltBriefBlockGraph","AltCompleteBlockGraph","AltZonedBlockGraph"});
         this.graphType.setPromptText("BriefUnitGraph");
         this.graphType.setValue("BriefUnitGraph");
         this.graphType.setItems(graphs);
