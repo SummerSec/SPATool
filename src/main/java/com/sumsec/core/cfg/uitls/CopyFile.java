@@ -15,26 +15,60 @@ import org.apache.logging.log4j.Logger;
  **/
 public class CopyFile {
     private static Logger log = LogManager.getLogger(CopyFile.class);
-    public void copyFile(String dest,String file) {
-        if (file.contains("dot")) {
-            log.info("copy file from " + ConstatField.sootOutputTemp + " to " + dest);
-            FindFiles findFiles = new FindFiles();
-            String[] dots = findFiles.findFiles(ConstatField.sootOutputTemp, "dot");
-            for (String dot : dots) {
-                log.info("复制成功 " + dot);
-                FileUtil.copyFile(dot,dest);
+    public void copyFile(String dest,String file,boolean isCFG) {
+        FindFiles findFiles = new FindFiles();
+        if (isCFG) {
+            if (file.contains("dot")) {
+                log.info("copy file from " + ConstatField.sootOutputTemp + " to " + dest);
+                String[] dots = findFiles.findFiles(ConstatField.sootOutputTemp, "dot");
+                for (String dot : dots) {
+                    log.info("复制成功 " + dot);
+                    FileUtil.copyFile(dot,dest);
+                }
+            }else if (file.contains("png")){
+                log.info("copy file from " + ConstatField.ResultTemp + " to " + dest);
+                String[] pngs = findFiles.findFiles(ConstatField.ResultTemp, "png");
+                for (String png : pngs) {
+                    log.info("复制成功 " + png);
+                    FileUtil.copyFile(png,dest);
+                }
             }
-        }else if (file.contains("png")){
-            log.info("copy file from " + ConstatField.ResultTemp + " to " + dest);
-            FindFiles findFiles = new FindFiles();
-            String[] pngs = findFiles.findFiles(ConstatField.ResultTemp, "png");
-            for (String png : pngs) {
-                log.info("复制成功 " + png);
-                FileUtil.copyFile(png,dest);
+        }else {
+            if (file.contains("dot")) {
+                log.info("copy file from " + ConstatField.ASTHomeTemp + " to " + dest);
+                String[] dots = findFiles.findFiles(ConstatField.sootOutputTemp, "dot");
+                for (String dot : dots) {
+                    log.info("复制成功 " + dot);
+                    FileUtil.copyFile(dot,dest);
+                }
+            }else if (file.contains("png")){
+                log.info("copy file from " + ConstatField.ASTResultTemp + " to " + dest);
+                String[] pngs = findFiles.findFiles(ConstatField.ASTResultTemp, "png");
+                for (String png : pngs) {
+                    log.info("复制成功 " + png);
+                    FileUtil.copyFile(png,dest);
+                }
+            }else if(file.contains("json")){
+                String[] json = findFiles.findFiles(ConstatField.ASTResultTemp, "json");
+                for (String js : json) {
+                    log.info("复制成功 " + js);
+                    FileUtil.copyFile(js,dest);
+                }
+            }else if(file.contains("yaml")){
+                String[] yaml = findFiles.findFiles(ConstatField.ASTResultTemp, "yaml");
+                for (String ym : yaml) {
+                    log.info("复制成功 " + ym);
+                    FileUtil.copyFile(ym,dest);
+                }
+            }else if (file.contains("xml")){
+                String[] xml = findFiles.findFiles(ConstatField.ASTResultTemp, "xml");
+                for (String xm : xml) {
+                    log.info("复制成功 " + xm);
+                    FileUtil.copyFile(xm,dest);
+                }
             }
-        }else if (file.contains("json")){
-
         }
+
     }
 
 }

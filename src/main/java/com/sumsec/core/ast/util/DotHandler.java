@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 import static cn.hutool.core.io.FileUtil.mkdir;
 import static com.sumsec.core.cfg.uitls.OSUtil.isWindowsOS;
@@ -47,10 +48,19 @@ public class DotHandler  {
                 logger.info("开始生成图片 " + dotPath[i]);
                 logger.info("正在执行命令 "+ Arrays.toString(cmd));
                 sleep(1000);
-                Runtime.getRuntime().exec(cmd);
-                logger.info("生成图片成功");
-                logger.info("图片路径为：" + imgPath);
-                imgPaths.add(imgPath);
+                String charsetName = isWindowsOS ? "GBK" : "UTF-8";
+                byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
+                if (bytes.length > 0) {
+                    logger.info("something wrong");
+                    Alert alert = new Alert(Alert.AlertType.WARNING);
+                    alert.setTitle("警告");
+                    alert.setContentText(new String(bytes, charsetName));
+                    alert.show();
+                } else{
+                    logger.info("生成图片成功");
+                    logger.info("图片路径为：" + imgPath);
+                    imgPaths.add(imgPath);
+                }
             } catch (Exception e) {
                 logger.error("生成图片失败 " + dotPath[i]);
                 Alert alert = new Alert(Alert.AlertType.ERROR);

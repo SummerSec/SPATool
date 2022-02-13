@@ -19,10 +19,11 @@ public class ConstatField {
     public static final String separator = File.separator;
     public static final String DatasHome = HOME + separator + "datas";
     public final static String CFGHOME = DatasHome + separator + "cfg";
-    public final static String Result = HOME + separator + "result";
+    public final static String Result = DatasHome + separator + "result";
     public static String CFGHOMETemp = CFGHOME;
-    public static String ResultTemp = Result ;
-    public final static String sootOutput = DatasHome + separator + "sootOutput";
+    public static String ResultTemp = Result + separator + "cfg";
+    // sootOutput必须为相对路径
+    public final static String sootOutput = "datas" + separator + "sootOutput";
     public static String sootOutputTemp = sootOutput;
     public static boolean flag = true;
     public static boolean flag1 = true;

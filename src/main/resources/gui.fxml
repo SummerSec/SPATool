@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
@@ -23,13 +22,12 @@
                                     <Button fx:id="CFGG" mnemonicParsing="false" onAction="#CFGG" text="Generate" />
                                     <Button fx:id="CFGSFile" mnemonicParsing="false" onAction="#CFGSFile" prefHeight="23.0" prefWidth="117.0" text="Save Dot File" textAlignment="CENTER" />
                                     <Button fx:id="CFGExport" mnemonicParsing="false" onAction="#CFGExport" text="Export Image" />
-                                    <TextField fx:id="mName" prefHeight="23.0" prefWidth="175.0" promptText="method name default hello" />
+<!--                                    <TextField fx:id="mName" prefHeight="23.0" prefWidth="175.0" promptText="method name default hello" />-->
                                     <Label prefHeight="15.0" prefWidth="87.0" text="GraphType" />
                                     <ComboBox fx:id="graphType" prefHeight="23.0" prefWidth="163.0" promptText="BriefUnitGraph" />
                                 </items>
                               </ToolBar>
-                              <ImageView fx:id="CFGImage" fitHeight="422.0" fitWidth="989.0" layoutX="4.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" />
-                              <TextArea fx:id="mC" layoutX="6.0" layoutY="44.0" prefHeight="248.0" prefWidth="988.0" promptText="method context (default name hello)" />
+                              <TextArea fx:id="mC" layoutX="6.0" layoutY="44.0" prefHeight="500.0" prefWidth="988.0" promptText="method context (default name hello)" />
                            </children></AnchorPane>
                   </content>
                 </Tab>
@@ -38,25 +36,28 @@
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="894.0" prefWidth="1000.0">
                            <children>
-                              <TextArea fx:id="ASTFC" layoutX="9.0" layoutY="8.0" prefHeight="748.0" prefWidth="322.0" promptText="File Context" />
-                              <Button fx:id="ASTG" layoutX="342.0" layoutY="165.0" mnemonicParsing="false" onAction="#ASTG" prefHeight="23.0" prefWidth="100.0" text="Generate" />
-                              <ImageView fx:id="ASTImage" fitHeight="760.0" fitWidth="542.0" layoutX="449.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
-                              <Button fx:id="ASTSave" layoutX="342.0" layoutY="209.0" mnemonicParsing="false" onAction="#ASTSave" prefHeight="23.0" prefWidth="100.0" text="Save AST File" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="11.0" />
-                                 </font></Button>
-                              <Button fx:id="ASTExport" layoutX="342.0" layoutY="253.0" mnemonicParsing="false" onAction="#ASTExport" prefHeight="23.0" prefWidth="100.0" text="Export Image">
-                                 <font>
-                                    <Font size="11.0" />
-                                 </font></Button>
-                              <Button fx:id="ASTReset" layoutX="342.0" layoutY="298.0" mnemonicParsing="false" onAction="#ASTReset" prefHeight="23.0" prefWidth="98.0" text="Reset" textAlignment="CENTER" />
-                              <ComboBox fx:id="FileType" layoutX="344.0" layoutY="370.0" prefHeight="23.0" prefWidth="95.0" promptText="Dot" />
-                              <Label layoutX="351.0" layoutY="339.0" prefHeight="15.0" prefWidth="81.0" text="Save File Type">
-                                 <font>
-                                    <Font size="11.0" />
-                                 </font></Label>
-                              <Button onAction="#ASTFile" fx:id="ASTFile" layoutX="342.0" layoutY="128.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="100.0" text="Select File" />
-                           </children></AnchorPane>
+                              <TextArea fx:id="ASTFC" layoutX="9.0" layoutY="8.0" prefHeight="748.0" prefWidth="600.0" promptText="File Context" />
+                              <Button fx:id="ASTG" layoutX="620.0" layoutY="170.0" mnemonicParsing="false" onAction="#ASTG" prefHeight="23.0" prefWidth="130.0" text="Generate" />
+                              <Button fx:id="ASTSave" layoutX="620.0" layoutY="215.0" mnemonicParsing="false" onAction="#ASTSave" prefHeight="23.0" prefWidth="130.0" text="Save AST File" textAlignment="CENTER">
+<!--                                 <font>-->
+<!--                                    <Font size="11.0" />-->
+<!--                                 </font>-->
+                              </Button>
+                              <Button fx:id="ASTExport" layoutX="620.0" layoutY="253.0" mnemonicParsing="false" onAction="#ASTExport" prefHeight="23.0" prefWidth="130.0" text="Export Image">
+<!--                                 <font>-->
+<!--                                    <Font size="11.0" />-->
+<!--                                 </font>-->
+                              </Button>
+                              <Button fx:id="ASTReset" layoutX="620.0" layoutY="298.0" mnemonicParsing="false" onAction="#ASTReset" prefHeight="23.0" prefWidth="130.0" text="Reset" textAlignment="CENTER" />
+                              <ComboBox fx:id="FileType" layoutX="620.0" layoutY="360.0" prefHeight="23.0" prefWidth="130.0" promptText="Dot" />
+                              <Label layoutX="630.0" layoutY="339.0" prefHeight="15.0" prefWidth="130.0" text="Save File Type">
+<!--                                 <font>-->
+<!--                                    <Font size="11.0" />-->
+<!--                                 </font>-->
+                              </Label>
+                              <Button fx:id="ASTFile" layoutX="620.0" layoutY="128.0" mnemonicParsing="false" onAction="#ASTFile" prefHeight="23.0" prefWidth="130.0" text="Select File" />
+                           </children>
+                    </AnchorPane>
                   </content>
                 </Tab>
                   <Tab text=" About the SPATool">

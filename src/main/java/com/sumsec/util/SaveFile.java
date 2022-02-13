@@ -16,13 +16,13 @@ import java.io.File;
  * @Description:
  **/
 public class SaveFile {
-    public void Save(String name){
+    public void Save(String name,boolean isCFG){
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setInitialDirectory(new File("."));
         File file = directoryChooser.showDialog(new Stage());
         CopyFile copyFile = new CopyFile();
         try {
-            copyFile.copyFile(file.getAbsolutePath(),name);
+            copyFile.copyFile(file.getAbsolutePath(),name,isCFG);
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Information Dialog");
             alert.setContentText("保存成功");

@@ -41,7 +41,7 @@ public class mainController {
     public static String CFGFileName = "";
     // 选择类文件明
 
-    public static File ASTFile;
+    public static File ASTFiles;
     // 选择Java文件位置
     public static String ASTFileName = null;
     // 选择Java文件名字
@@ -131,13 +131,12 @@ public class mainController {
     // 保存CFG的dot文件
     public void CFGSFile(ActionEvent actionEvent) {
         SaveFile saveFile = new SaveFile();
-        saveFile.Save("dot");
-
+        saveFile.Save("dot",true);
     }
     // 导出CFG图片
     public void CFGExport(ActionEvent actionEvent) {
        SaveFile saveFile = new SaveFile();
-       saveFile.Save("png");
+       saveFile.Save("png",true);
     }
     // 生成AST文件
     public void ASTG(ActionEvent actionEvent) {
@@ -146,9 +145,9 @@ public class mainController {
         if (!context.equals("")) {
             log.info("输入的内容为：" + context);
             parser.parse(context,"DOT",true);
-        }else if (ASTFile.exists()){
+        }else if (ASTFiles.exists()){
             log.info("正在读取文件");
-            context = JavaContent.ReadJavaContent(ASTFile);
+            context = JavaContent.ReadJavaContent(ASTFiles);
             parser.parse(context,"DOT",true);
         }else {
             log.info("请输入文件内容，或者选择文件");
@@ -161,27 +160,26 @@ public class mainController {
     // 保存AST文件
     public void ASTSave(ActionEvent actionEvent) {
         SaveFile saveFile = new SaveFile();
-        saveFile.Save(FileType.getValue().toLowerCase());
+        saveFile.Save(FileType.getValue().toLowerCase(),false);
     }
     // 导出AST图片
     public void ASTExport(ActionEvent actionEvent) {
         SaveFile saveFile = new SaveFile();
-        saveFile.Save("png");
+        saveFile.Save("png",false);
     }
     // 清空文件输入框
     public void ASTReset(ActionEvent actionEvent) {
         ASTFC.setText("");
-        ASTFile = null;
+        ASTFiles = null;
         ASTFileName = "";
     }
     // 选择Java或者Class文件
     public void ASTFile(ActionEvent actionEvent) {
         SelectFile selectFile = new SelectFile();
-        ASTFile = selectFile.SelectFile();
-        ASTFileName = ASTFile.getName();
+        ASTFiles = selectFile.SelectFile();
+        ASTFileName = ASTFiles.getName();
         log.info("选择的文件名为：" + ASTFileName);
-        log.info("选择的文件路径为：" + ASTFile.getAbsolutePath());
-
+        log.info("选择的文件路径为：" + ASTFiles.getAbsolutePath());
 
     }
 
@@ -213,6 +211,6 @@ public class mainController {
         log.info("AST文件存储路径为：" + ConstatField.ASTHomeTemp);
         log.info("结果文件存储路径为：" + ConstatField.ResultTemp);
         log.info("soot输出文件存储路径为：" + ConstatField.sootOutputTemp);
-        log.info("ResultTemp：" + ConstatField.ResultTemp);
+        log.info("ASTResultTemp：" + ConstatField.ASTResultTemp);
     }
 }
