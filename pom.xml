@@ -117,7 +117,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>com.drops.main.Main</mainClass>
+                            <mainClass>com.sumsec.ui.main</mainClass>
                         </manifest>
                     </archive>
                     <descriptor>assembly.xml</descriptor>
