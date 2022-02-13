@@ -38,6 +38,7 @@ public class OSUtil {
         mkdir(ConstatField.ResultTemp);
         ArrayList<String> imgPaths = new ArrayList<>();
 //        String path = ConstatField.ResultTemp + ConstatField.separator + name + ".png";
+        logger.info(dotPath.length);
         for (int i = 0; i < dotPath.length; i++) {
             String imgPath = ConstatField.ResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("\\") + 1, dotPath[i].lastIndexOf(".")) + ".png";
             if (isWindowsOS) {

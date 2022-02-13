@@ -1,9 +1,9 @@
 package com.sumsec.core.cfg;
 
-import com.sumsec.core.cfg.core.Image;
+import com.sumsec.core.cfg.uitls.Images;
 import com.sumsec.core.cfg.uitls.FindDot;
+import com.sumsec.core.cfg.uitls.ImageBak;
 import com.sumsec.core.cfg.uitls.OSUtil;
-import com.sumsec.util.ConstatField;
 import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -43,21 +43,27 @@ public class ImageUtil {
                 alert.show();
             } else {
                 try {
-                    Image.image = ImageIO.read(file);
+                    ImageBak.image = ImageIO.read(file);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                int Height = Image.image.getHeight() + 100;
-                int Width = Image.image.getWidth() + 100;
+                int Height = ImageBak.image.getHeight() + 100;
+                int Width = ImageBak.image.getWidth() + 100;
                 log.info("图片大小 width:" + Width + " height:" + Height);
-                new Image(Width, Height);
+//                new ImageBak(Width, Height);
+                try {
+                    new Images(file);
+                } catch (IOException e) {
+                    log.info(e.getMessage());
+                }
             }
         }
     }
 
 
-    public String[] Dot2Image(String mName){
+    public String[] Dot2Image(){
         // TODO
+        log.info("Dot2Image");
         FindDot findDot = new FindDot();
         String[] dotPath = findDot.findDotCFG(".dot");
         OSUtil osUtil = new OSUtil();

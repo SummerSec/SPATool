@@ -21,6 +21,7 @@ public class FindDot {
     private static Logger log = LogManager.getLogger(FindDot.class);
     // 从文件夹中寻找生成的dot文件cfg
     public String[] findDotCFG(String name){
+        log.info("开始寻找dot文件");
         File file = new File(ConstatField.sootOutputTemp);
         File[] files = file.listFiles();
         ArrayList<String> dots = new ArrayList<>();

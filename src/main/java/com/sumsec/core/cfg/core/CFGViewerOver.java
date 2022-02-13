@@ -36,6 +36,7 @@ public class CFGViewerOver {
         System.out.println(args[0]);
         ConstatField.main.run((String[]) obj);
     }
+
     public static CFGViewer CFGViewerOver(){
         CFGViewer viewer = new CFGViewer();
 

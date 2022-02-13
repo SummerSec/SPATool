@@ -26,8 +26,8 @@ public class SelectFile {
     public File SelectFile() {
         log.info("选择文件");
         FileChooser fileChooser = new FileChooser();
-        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
         FileChooser.ExtensionFilter extFilter1 = new FileChooser.ExtensionFilter("Java Files", "*.java");
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter("Class Files", "*.class");
         fileChooser.getExtensionFilters().add(extFilter);
         fileChooser.getExtensionFilters().add(extFilter1);
         Stage stage = new Stage();

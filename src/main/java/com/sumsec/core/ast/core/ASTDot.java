@@ -2,7 +2,7 @@ package com.sumsec.core.ast.core;
 
 import cn.hutool.core.io.file.FileWriter;
 import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.printer.YamlPrinter;
+import com.github.javaparser.printer.DotPrinter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -29,7 +29,7 @@ public class ASTDot extends ASTType{
     public void handle(String content,String filepath) {
         log.info("dot handle");
         CompilationUnit cu = parse(content);
-        YamlPrinter printer = new YamlPrinter(true);
+        DotPrinter printer = new DotPrinter(true);
         log.info(printer.output(cu));
         FileWriter fileWriter = new FileWriter(filepath);
         fileWriter.write(printer.output(cu));

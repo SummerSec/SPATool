@@ -1,13 +1,13 @@
 package com.sumsec.core.ast.util;
 
-import com.sumsec.core.cfg.core.Image;
+import com.sumsec.core.cfg.uitls.ImageBak;
+import com.sumsec.core.cfg.uitls.Images;
 import com.sumsec.util.ConstatField;
 import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -80,11 +80,12 @@ public class DotHandler  {
                     alert.setContentText("图片不存在");
                     alert.show();
                 }else {
-                    Image.image = ImageIO.read(image);
-                    int width = Image.image.getWidth() + 100;
-                    int height = Image.image.getHeight() + 100;
+                    ImageBak.image = ImageIO.read(image);
+                    int width = ImageBak.image.getWidth() + 100;
+                    int height = ImageBak.image.getHeight() + 100;
                     logger.info("图片大小为：" + width + "*" + height);
-                    new Image(width, height);
+//                    new ImageBak(width, height);
+                    new Images(image);
                 }
             } catch (InterruptedException e) {
                 logger.info(e.getMessage());

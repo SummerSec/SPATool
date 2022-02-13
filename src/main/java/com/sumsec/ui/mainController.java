@@ -1,5 +1,6 @@
 package com.sumsec.ui;
 
+
 import com.sumsec.core.ast.Parser;
 import com.sumsec.core.ast.util.ASTSave;
 import com.sumsec.core.ast.util.FindFile;
@@ -95,10 +96,9 @@ public class mainController {
         if (!CFGFilePath.equals("")) {
             SelectC.selectFile(CFGFilePath,CFGFileName);
             f = generate.DotG(graphType.getValue(),CFGFileName);
-            if (f) {
-                CFGFileName = "";
-                CFGFilePath = "";
-            }
+            CFGFileName = "";
+            CFGFilePath = "";
+
         }else {
             String methodN = mName.getText();
             String mContext = mC.getText();
@@ -120,8 +120,9 @@ public class mainController {
             alert.setTitle("Exception Dialog");
             alert.setContentText("Something wrong, Please looking the log file");
         }else {
+            log.info("生成cfg的dot文件成功");
             ImageUtil imageUtil = new ImageUtil();
-            String[] path = imageUtil.Dot2Image(mName.getText());
+            String[] path = imageUtil.Dot2Image();
             imageUtil.setImage(path);
         }
 
@@ -145,7 +146,7 @@ public class mainController {
         if (!context.equals("")) {
             log.info("输入的内容为：" + context);
             parser.parse(context,"DOT",true);
-        }else if (!ASTFile.exists()){
+        }else if (ASTFile.exists()){
             log.info("正在读取文件");
             context = JavaContent.ReadJavaContent(ASTFile);
             parser.parse(context,"DOT",true);
@@ -198,7 +199,7 @@ public class mainController {
     }
     public void init(){
         ConstatField.CFGHOMETemp = ConstatField.CFGHOME +  ConstatField.separator + System.nanoTime();
-        ConstatField.ResultTemp = ConstatField.Result + ConstatField.separator + System.nanoTime();
+        ConstatField.ResultTemp = ConstatField.ResultTemp + ConstatField.separator + System.nanoTime();
         ConstatField.sootOutputTemp = ConstatField.sootOutput + ConstatField.separator + System.nanoTime();
         ConstatField.ASTHomeTemp = ConstatField.ASTHome + ConstatField.separator + System.nanoTime();
         ConstatField.ASTResultTemp = ConstatField.ASTResult + ConstatField.separator + System.nanoTime();
@@ -207,5 +208,11 @@ public class mainController {
         mkdir(ConstatField.sootOutputTemp);
         mkdir(ConstatField.ASTHomeTemp);
         mkdir(ConstatField.ASTResultTemp);
+        log.info("初始化成功");
+        log.info("CFG文件存储路径为：" + ConstatField.CFGHOMETemp);
+        log.info("AST文件存储路径为：" + ConstatField.ASTHomeTemp);
+        log.info("结果文件存储路径为：" + ConstatField.ResultTemp);
+        log.info("soot输出文件存储路径为：" + ConstatField.sootOutputTemp);
+        log.info("ResultTemp：" + ConstatField.ResultTemp);
     }
 }

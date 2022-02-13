@@ -17,7 +17,9 @@ import soot.options.Options;
 import soot.tools.CFGViewer;
 
 import java.io.File;
+import java.util.ArrayList;
 
+import static cn.hutool.core.io.FileUtil.mkdir;
 import static soot.SootClass.SIGNATURES;
 
 
@@ -62,14 +64,10 @@ public class Generate {
                 filename = TMethod.clsName;
             }
             ConstatField.filename = filename;
-            SootClass sc = Scene.v().loadClassAndSupport(filename);
-            String[] arg ;
-            if (ConstatField.flag1){
-                arg = new String[]{filename, "--graph=" + graphtype,"-force-overwrite","-d",ConstatField.sootOutputTemp};
-                ConstatField.flag1 = false;
-            }else {
-                arg = new String[]{filename, "--graph=" + graphtype,"-force-overwrite"};
-            }
+            Scene.v().loadClassAndSupport(filename);
+            mkdir(ConstatField.sootOutputTemp);
+            String[] arg = new String[]{filename, "--graph=" + graphtype,"-force-overwrite","-d",ConstatField.sootOutputTemp};
+            log.info("arg: " + arg[0] + " " + arg[1] + " " + arg[2] + " " + arg[3] + " " + arg[4]);
             log.info("开始生成cfg图");
             log.info("生成的文件名为："+filename);
             log.info("生成的图类型为："+graphtype);

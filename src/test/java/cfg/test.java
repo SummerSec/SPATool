@@ -29,7 +29,7 @@ public class test {
         System.out.println(ConstatField.CFGHOMETemp);
 //        System.out.println(ConstatField.CFGHOME);
         File file = new File(ConstatField.CFGHOMETemp + "\\635244167339300"+ ConstatField.separator + s.split("\\.")[5] + ".class");
-        mkdir(file);
+//        mkdir(file);
         FileOutputStream fos = new FileOutputStream(file);
         fos.write("asd".getBytes());
         fos.close();
