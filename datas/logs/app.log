@@ -1461,3 +1461,15 @@ Otherwise, try whole-program mode (-w).
 2022.02.09 at 15:26:07 CST INFO  com.sumsec.core.cfg.ImageUtil 52 setImage - 图片大小 width:343 height:477
 2022.02.09 at 15:32:27 CST INFO  com.sumsec.ui.main 36 start - Application started
 2022.02.10 at 15:46:50 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.12 at 18:48:43 CST INFO  com.sumsec.ui.main 36 start - Application started
+2022.02.12 at 18:49:23 CST INFO  com.sumsec.util.SelectFile 27 SelectFile - 选择文件
+2022.02.12 at 18:49:37 CST INFO  com.sumsec.util.SelectFile 35 SelectFile - 选择了文件：G:\GitHubProject\SPATool\FizzBuzz.java
+2022.02.12 at 18:49:37 CST INFO  com.sumsec.ui.mainController 181 ASTFile - 选择的文件名为：FizzBuzz.java
+2022.02.12 at 18:49:37 CST INFO  com.sumsec.ui.mainController 182 ASTFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.java
+2022.02.12 at 18:49:37 CST INFO  com.sumsec.ui.mainController 153 ASTG - 请输入文件内容，或者选择文件
+2022.02.12 at 18:49:41 CST INFO  com.sumsec.ui.mainController 153 ASTG - 请输入文件内容，或者选择文件
+2022.02.12 at 18:50:28 CST INFO  com.sumsec.util.SelectFile 27 SelectFile - 选择文件
+2022.02.12 at 18:50:44 CST INFO  com.sumsec.util.SelectFile 35 SelectFile - 选择了文件：G:\GitHubProject\SPATool\FizzBuzz.java
+2022.02.12 at 18:50:44 CST INFO  com.sumsec.ui.mainController 181 ASTFile - 选择的文件名为：FizzBuzz.java
+2022.02.12 at 18:50:44 CST INFO  com.sumsec.ui.mainController 182 ASTFile - 选择的文件路径为：G:\GitHubProject\SPATool\FizzBuzz.java
+2022.02.12 at 18:50:46 CST INFO  com.sumsec.ui.mainController 153 ASTG - 请输入文件内容，或者选择文件

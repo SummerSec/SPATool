@@ -61,6 +61,7 @@ public class OSUtil {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Error");
                 alert.setContentText(e.getMessage());
+                alert.show();
                 logger.error(e.getMessage());
             }
         }

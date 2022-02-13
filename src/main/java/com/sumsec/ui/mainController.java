@@ -1,6 +1,8 @@
 package com.sumsec.ui;
 
 import com.sumsec.core.ast.Parser;
+import com.sumsec.core.ast.util.ASTSave;
+import com.sumsec.core.ast.util.FindFile;
 import com.sumsec.core.ast.util.JavaContent;
 import com.sumsec.core.cfg.Generate;
 import com.sumsec.core.cfg.ImageUtil;
@@ -40,7 +42,7 @@ public class mainController {
 
     public static File ASTFile;
     // 选择Java文件位置
-    public static String ASTFileName = ASTFile.getName();
+    public static String ASTFileName = null;
     // 选择Java文件名字
 
     @FXML
@@ -142,11 +144,11 @@ public class mainController {
         Parser parser = new Parser();
         if (!context.equals("")) {
             log.info("输入的内容为：" + context);
-            parser.parse(context,"DOT");
+            parser.parse(context,"DOT",true);
         }else if (!ASTFile.exists()){
             log.info("正在读取文件");
             context = JavaContent.ReadJavaContent(ASTFile);
-            parser.parse(context,"DOT");
+            parser.parse(context,"DOT",true);
         }else {
             log.info("请输入文件内容，或者选择文件");
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -154,16 +156,22 @@ public class mainController {
             alert.setContentText("请输入文件内容，或者选择文件");
             alert.show();
         }
-
     }
     // 保存AST文件
     public void ASTSave(ActionEvent actionEvent) {
+        SaveFile saveFile = new SaveFile();
+        saveFile.Save(FileType.getValue().toLowerCase());
     }
     // 导出AST图片
     public void ASTExport(ActionEvent actionEvent) {
+        SaveFile saveFile = new SaveFile();
+        saveFile.Save("png");
     }
     // 清空文件输入框
     public void ASTReset(ActionEvent actionEvent) {
+        ASTFC.setText("");
+        ASTFile = null;
+        ASTFileName = "";
     }
     // 选择Java或者Class文件
     public void ASTFile(ActionEvent actionEvent) {

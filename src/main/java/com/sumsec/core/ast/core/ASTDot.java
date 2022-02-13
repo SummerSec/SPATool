@@ -34,7 +34,7 @@ public class ASTDot extends ASTType{
         FileWriter fileWriter = new FileWriter(filepath);
         fileWriter.write(printer.output(cu));
         log.info("write file success");
-        log.info("Dot file path: "+filepath);
+        log.info("Dot file path: "+ filepath);
         log.info("dot handle end");
     }
 
