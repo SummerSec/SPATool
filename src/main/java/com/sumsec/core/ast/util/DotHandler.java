@@ -50,7 +50,8 @@ public class DotHandler  {
                 sleep(1000);
                 String charsetName = isWindowsOS ? "GBK" : "UTF-8";
                 byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
-                if (bytes.length > 0) {
+                if (bytes.length > 17) {
+                    logger.info("bytes.length = " + bytes.length);
                     logger.info("something wrong");
                     Alert alert = new Alert(Alert.AlertType.WARNING);
                     alert.setTitle("警告");

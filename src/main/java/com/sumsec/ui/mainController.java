@@ -100,12 +100,12 @@ public class mainController {
             CFGFilePath = "";
 
         }else {
-            String methodN = mName.getText();
+//            String methodN = mName.getText();
             String mContext = mC.getText();
-            System.out.println(methodN);
+//            System.out.println(methodN);
             System.out.println(mContext);
-            if (!methodN.equals("") && !mContext.equals("")) {
-                String clzzname = generate.methodG(methodN, mContext);
+            if (!mContext.equals("")) {
+                String clzzname = generate.methodG("methodN", mContext);
                 f = generate.DotG(graphType.getValue(), clzzname);
             }else {
                 Alert alert = new Alert(Alert.AlertType.ERROR);

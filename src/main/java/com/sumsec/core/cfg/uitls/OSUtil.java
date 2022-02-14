@@ -56,7 +56,8 @@ public class OSUtil {
                 sleep(1000);
                 String charsetName = isWindowsOS ? "GBK" : "UTF-8";
                 byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
-                if (bytes.length > 0) {
+                if ( bytes.length > 17) {
+                    logger.info("bytes.length = " + bytes.length);
                     logger.info("something wrong");
                     Alert alert = new Alert(Alert.AlertType.WARNING);
                     alert.setTitle("警告");
@@ -84,6 +85,8 @@ public class OSUtil {
     public static void main(String[] args) {
         OSUtil osUtil = new OSUtil();
 //        osUtil.RunCmd("tmethod638287524801000.png","G:\\GitHubProject\\SPATool\\sootOutput\\tmethod638287524801000 void main(java.lang.String[]).dot" );
+
+
     }
 
 }

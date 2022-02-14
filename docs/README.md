@@ -31,16 +31,38 @@
 ---
 ## ⚡下载安装
 
+* GitHub Release 下载
+
+    https://github.com/SummerSec/SPATool/releases
+
+* CDN历史版本下载页面
+
+    https://spat.sumsec.me/version.html
+
 
 
 ---
 ## 🎬 使用方法
 
-[AST模块使用说明](https://spat.sumsec.me/ASTREADME.html)
+**效果页面**
 
-[CFG模块使用说明](https://spat.sumsec.me/CFGREADME.html)
+![image-20220214154214904](https://cdn.jsdelivr.net/gh/SummerSec/Images/22u4222ec22u4222ec.png)
+
+**GUI使用说明**
+
+* [AST模块使用说明](https://spat.sumsec.me/ASTREADME.html)
+
+* [CFG模块使用说明](https://spat.sumsec.me/CFGREADME.html)
+
+**Cli使用说明**
+
+* [CLIREADME](CLIREADME.md)
 
 
+
+
+
+----
 
 
 
