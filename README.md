@@ -24,10 +24,25 @@
 ---
 ## 🐉 来龙去脉
 
+未来这段时间可能会在静态分析领域上继续研究，这是但新手小白会面对**CFG**（Control-Flow-Graph控制流图）和**AST**（Abstract Syntax Tree抽象语法树）怎么看都不知道的问题，导致无从下手。以此这是这款工具诞生的契机，目前工具使用的是Soot生成CFG，使用JavaParser生成AST。
+
+
+
 ---
 ## ⚡下载安装
+
+
+
 ---
 ## 🎬 使用方法
+
+[AST模块使用说明](https://spat.sumsec.me/ASTREADME.html)
+
+[CFG模块使用说明](https://spat.sumsec.me/CFGREADME.html)
+
+
+
+
 
 
 ## 🅱️ 免责声明
