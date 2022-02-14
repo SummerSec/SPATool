@@ -58,6 +58,9 @@ public class mainController {
     @FXML
     public TextArea ASTFC; // ast
 
+    @FXML
+    public TextArea About; // 关于
+
 
 
 
@@ -69,6 +72,7 @@ public class mainController {
     private void initialize() {
         this.init();
         this.InitCombox();
+        this.About();
         ControllersFactory.controllers.put(mainController.class.getName(), this);
 
     }
@@ -100,9 +104,7 @@ public class mainController {
             CFGFilePath = "";
 
         }else {
-//            String methodN = mName.getText();
             String mContext = mC.getText();
-//            System.out.println(methodN);
             System.out.println(mContext);
             if (!mContext.equals("")) {
                 String clzzname = generate.methodG("methodN", mContext);
@@ -160,6 +162,22 @@ public class mainController {
     // 保存AST文件
     public void ASTSave(ActionEvent actionEvent) {
         SaveFile saveFile = new SaveFile();
+        String context = ASTFC.getText();
+        Parser parser = new Parser();
+        if (!context.equals("")) {
+            log.info("输入的内容为：" + context);
+            parser.parse(context,FileType.getValue(),false);
+        }else if (ASTFiles.exists()){
+            log.info("正在读取文件");
+            context = JavaContent.ReadJavaContent(ASTFiles);
+            parser.parse(context,FileType.getValue(),false);
+        }else {
+            log.info("请输入文件内容，或者选择文件");
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Warning");
+            alert.setContentText("请输入文件内容，或者选择文件");
+            alert.show();
+        }
         saveFile.Save(FileType.getValue().toLowerCase(),false);
     }
     // 导出AST图片
@@ -212,5 +230,19 @@ public class mainController {
         log.info("结果文件存储路径为：" + ConstatField.ResultTemp);
         log.info("soot输出文件存储路径为：" + ConstatField.sootOutputTemp);
         log.info("ASTResultTemp：" + ConstatField.ASTResultTemp);
+    }
+
+    private void About() {
+        About.setText("\tAuthor: SummerSec\n" +
+                "\tDescription: SPATool is a tool for analysis java source code.\n" +
+                "\tWebsite: spat.sumsec.me \n" +
+                "\tVersion: " + ConstatField.version +"\n" +
+                "\tGithub: " + "github.com/SummerSec/SPATool" + "\n" +
+                "\tCreate Date: 2021/02/14 \n" +
+                "\tLast Update: 2021/02/14 \n"
+//                "\tMD5: " + ConstatField.MD5 + "\n" +
+//                "\tSHA-256: " + ConstatField.SHA256 + "\n"
+        );
+
     }
 }

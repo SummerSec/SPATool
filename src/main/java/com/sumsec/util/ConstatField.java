@@ -20,6 +20,8 @@ public class ConstatField {
     public static final String DatasHome = HOME + separator + "datas";
     public final static String CFGHOME = DatasHome + separator + "cfg";
     public final static String Result = DatasHome + separator + "result";
+//    public static final String MD5 = "";
+//    public static final String SHA256 = "";
     public static String CFGHOMETemp = CFGHOME;
     public static String ResultTemp = Result + separator + "cfg";
     // sootOutput必须为相对路径
@@ -35,6 +37,8 @@ public class ConstatField {
     public static String ASTResultTemp = Result + separator + "ast";
 
     public static CFGViewer viewer = null;
+
+    public static final String version = "0.1-SNAPSHOT-Beta";
 
 
 }

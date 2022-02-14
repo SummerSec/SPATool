@@ -93,3 +93,42 @@
 同保存图片一样。
 
 ![image-20220214165549358](https://cdn.jsdelivr.net/gh/SummerSec/Images/49u5549ec49u5549ec.png)
+
+---
+
+### 测试DEMO代码
+
+**DEMO1**  使用`javac FizzBuzz.java`
+
+```java
+public class FizzBuzz {
+
+    public void printFizzBuzz(int k){
+        if (k%15==0)
+            System.out.println("FizzBuzz");
+        else if (k%5==0)
+            System.out.println("Buzz");
+        else if (k%3==0)
+            System.out.println("Fizz");
+        else
+            System.out.println(k);
+    }
+
+    public void fizzBuzz(int n){
+        for (int i=1; i<=n; i++)
+            printFizzBuzz(i);
+    }
+}
+```
+
+
+
+**DEMO2** 方法
+
+```java
+
+    public static void main(String[] var0) {
+        System.out.println(System.getenv("PATH").toLowerCase().contains("graphviz"));
+    }
+```
+

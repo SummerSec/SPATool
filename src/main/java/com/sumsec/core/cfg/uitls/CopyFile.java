@@ -35,7 +35,7 @@ public class CopyFile {
             }
         }else {
             if (file.contains("dot")) {
-                log.info("copy file from " + ConstatField.ASTHomeTemp + " to " + dest);
+                log.info("copy file from " + ConstatField.sootOutputTemp + " to " + dest);
                 String[] dots = findFiles.findFiles(ConstatField.sootOutputTemp, "dot");
                 for (String dot : dots) {
                     log.info("复制成功 " + dot);
@@ -49,19 +49,19 @@ public class CopyFile {
                     FileUtil.copyFile(png,dest);
                 }
             }else if(file.contains("json")){
-                String[] json = findFiles.findFiles(ConstatField.ASTResultTemp, "json");
+                String[] json = findFiles.findFiles(ConstatField.ASTHomeTemp, "json");
                 for (String js : json) {
                     log.info("复制成功 " + js);
                     FileUtil.copyFile(js,dest);
                 }
             }else if(file.contains("yaml")){
-                String[] yaml = findFiles.findFiles(ConstatField.ASTResultTemp, "yaml");
+                String[] yaml = findFiles.findFiles(ConstatField.ASTHomeTemp, "yaml");
                 for (String ym : yaml) {
                     log.info("复制成功 " + ym);
                     FileUtil.copyFile(ym,dest);
                 }
             }else if (file.contains("xml")){
-                String[] xml = findFiles.findFiles(ConstatField.ASTResultTemp, "xml");
+                String[] xml = findFiles.findFiles(ConstatField.ASTHomeTemp, "xml");
                 for (String xm : xml) {
                     log.info("复制成功 " + xm);
                     FileUtil.copyFile(xm,dest);

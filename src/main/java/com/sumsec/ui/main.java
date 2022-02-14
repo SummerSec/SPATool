@@ -1,6 +1,7 @@
 package com.sumsec.ui;
 
 
+import com.sumsec.util.ConstatField;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -43,7 +44,7 @@ public class main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/gui.fxml"));
-        primaryStage.setTitle("Static Analysis Tool by SummerSec");
+        primaryStage.setTitle("Static Analysis Tool "+ ConstatField.version + "  by SummerSec");
         Image icon = new Image(String.valueOf(getClass().getResource("/icon.png")));
         primaryStage.getIcons().add(icon);
         Scene scene = new Scene(root);

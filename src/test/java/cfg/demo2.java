@@ -1,8 +1,12 @@
 package cfg;
 
 import com.sumsec.core.cfg.core.CFGViewerOver;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import soot.Scene;
 import soot.tools.CFGViewer;
+
+import java.io.IOException;
 
 /**
  * @ClassName: demo2
@@ -13,10 +17,9 @@ import soot.tools.CFGViewer;
  * @Description:
  **/
 public class demo2 {
-    public static void main(String[] args) {
-//        CFGViewer viewer = CFGViewerOver.CFGViewerOver();
-//        CFGViewerOver.main(viewer);
-//        Scene.v().getSootClass("");
-        System.out.println("hello world");
+    public static void main(String[] args) throws IOException {
+        Parent root = FXMLLoader.load(demo2.class.getResource("/gui.fxml"));
+        System.out.println();
+
     }
 }
