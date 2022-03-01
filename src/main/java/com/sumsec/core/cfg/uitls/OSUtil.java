@@ -5,6 +5,7 @@ import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -47,7 +48,7 @@ public class OSUtil {
                 cmd = new String[]{"cmd.exe", "/c", "dot", "-Tpng", dotPath[i], "-o", imgPath};
             } else {
                 //linux下的命令
-                cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" + dotPath[i] + "-o", imgPath};
+                cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" , dotPath[i] ,"-o", imgPath};
             }
             try {
 
@@ -56,7 +57,8 @@ public class OSUtil {
                 sleep(1000);
                 String charsetName = isWindowsOS ? "GBK" : "UTF-8";
                 byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
-                if ( bytes.length > 17) {
+                File file = new File(imgPath);
+                if (!file.exists()) {
                     logger.info("bytes.length = " + bytes.length);
                     logger.info("something wrong");
                     Alert alert = new Alert(Alert.AlertType.WARNING);
