@@ -23,6 +23,27 @@ jobs:
       - name: Build with Maven
         run:
           mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+      - name: Create Release
+        id: release
+        uses: actions/create-release@v1
+        with:
+          tag_name: 'v${{ github.ref }}'
+          release-name: SPATool${{github.ref}}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Auto Upload Release
+        id: upload
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: {{secrets.GITHUB_TOKEN}}
+        with:
+          upload_url: ${{ step.release.upload_url }}
+          asset_path: SPATool-${{ github.ref }}.jar
+          asset_name: SPATool-${{ github.ref }}.jar
+          asset_content_type: application/java-archive
+
+
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.3.1
         with:
@@ -33,3 +54,5 @@ jobs:
           path:
             target/*.jar
           # The desired behavior if no files are found using the provided path.
+          prerelease: false
+          draft: false
