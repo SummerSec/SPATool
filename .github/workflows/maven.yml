@@ -36,7 +36,7 @@ jobs:
         id: upload
         uses: actions/upload-release-asset@v1
         env:
-          GITHUB_TOKEN: {{secrets.RELEASE}}
+          GITHUB_TOKEN: ${{secrets.RELEASE}}
         with:
           upload_url: ${{ step.release.upload_url }}
           asset_path: SPATool-${{ github.ref }}.jar
