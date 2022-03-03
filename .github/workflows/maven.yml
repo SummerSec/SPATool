@@ -1,13 +1,12 @@
 name: Release Maven
 
-# author Mrxn
-# github: github.com/Mr-xn
 
-#on:
-#  push:
-#    tags:
-#      - 'v*'
-on: [push]
+
+on:
+  push:
+    tags:
+      - 'v*'
+#on: [push]
 
 jobs:
   build:
