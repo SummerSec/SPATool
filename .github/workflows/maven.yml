@@ -24,22 +24,22 @@ jobs:
         run:
           mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B -V
       - name: Create Release
-        id: release
+        id: create_release
         uses: actions/create-release@v1
         with:
-          tag_name: 'v${{ github.ref }}'
+          tag_name: ${{ github.ref }}
           release-name: SPATool${{github.ref}}
         env:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
 
       - name: Auto Upload Release
-        id: upload
+        id: upload-release-asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
         with:
           upload_url: ${{ step.release.upload_url }}
-          asset_path: SPATool-${{ github.ref }}.jar
+          asset_path: ./SPATool-${{ github.ref }}.jar
           asset_name: SPATool-${{ github.ref }}.jar
           asset_content_type: application/java-archive
 
