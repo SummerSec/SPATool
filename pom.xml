@@ -6,7 +6,7 @@
 
     <groupId>com.sumsec</groupId>
     <artifactId>SPATool</artifactId>
-    <version>v0.1.7-SNAPSHOT</version>
+    <version>v0.1.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
