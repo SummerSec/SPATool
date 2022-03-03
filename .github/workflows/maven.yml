@@ -30,23 +30,12 @@ jobs:
         uses: actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
-          release-name: SPATool${{github.ref}}
+          release-name: ${{github.ref}}
         env:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
-
-      - name: Auto Upload Release
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{secrets.RELEASE}}
-        with:
-          upload_url: ${{ steps.create_release.upload_url }}
-          asset_path: ./SPATool-${{ github.ref }}.jar
-          asset_name: SPATool-${{ github.ref }}.jar
-          asset_content_type: application/java-archive
-
 
       - name: Upload a Build Artifact
+        id: upload-build-artifact
         uses: actions/upload-artifact@v2.3.1
         with:
           # Artifact name
@@ -58,3 +47,14 @@ jobs:
           # The desired behavior if no files are found using the provided path.
           prerelease: false
           draft: false
+
+      - name: Auto Upload Release
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{secrets.RELEASE}}
+        with:
+          upload_url: ${{ steps.create_release.upload_url }}
+          asset_path: ./SPATool.jar
+          asset_name: SPATool.jar
+          asset_content_type: application/java-archive
