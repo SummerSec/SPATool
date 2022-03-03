@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Get version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
@@ -30,7 +34,7 @@ jobs:
         uses: actions/create-release@v1
         with:
           tag_name: ${{ github.ref }}
-          release-name: ${{ github.ref }}
+          release-name: Release ${{ github.ref }}
           draft: false
           prerelease: false
         env:
@@ -43,10 +47,10 @@ jobs:
         with:
           # Artifact name
           name: # optional, default is artifact
-            SPATool
+            SPATool-${{steps.create_release.outputs.tags}}-SNAPSHOT-all.jar
           # A file, directory or wildcard pattern that describes what to upload
           path:
-            target/*-all.jar
+            target/*-SNAPSHOT-all.jar
           # The desired behavior if no files are found using the provided path.
           prerelease: false
           draft: false
@@ -58,6 +62,6 @@ jobs:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./SPATool-${{steps.create_release.inputs.release_name}}-SNAPSHOT--all.jar
-          asset_name: SPATool-${{steps.create_release.inputs.release_name}}-SNAPSHOT-all.jar
+          asset_path: ./SPATool-${{ steps.create_release.outputs.tags }}-SNAPSHOT-all.jar
+          asset_name: SPATool-${{ steps.create_release.outputs.tags }}-SNAPSHOT-all.jar
           asset_content_type: application/java-archive
