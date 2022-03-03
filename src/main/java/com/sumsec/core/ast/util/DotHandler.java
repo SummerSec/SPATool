@@ -60,8 +60,9 @@ public class DotHandler  {
                 byte[] bytes = null;
                 Scanner runCmd = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A");
                 //fix issue#2 : on linux ,detect hasNext otherwise will throw an NoSuchElementException
-                if (runCmd.hasNext())
+                if (runCmd.hasNext()) {
                     bytes = runCmd.next().getBytes(charsetName);
+                }
 
 
                 File file = new File(imgPath);
