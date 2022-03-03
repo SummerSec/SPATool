@@ -33,15 +33,3 @@ jobs:
           path:
             target/*.jar
           # The desired behavior if no files are found using the provided path.
-#          release:
-
-        - name: Create Release
-          id: create_release
-          uses: actions/create-release@v1
-          env:
-            GITHUB_TOKEN: ${{ secrets.RElEASE }}
-          with:
-            tag_name: ${{ github.ref }}
-            release_name: ${{ github.ref }}
-            draft: false
-            prerelease: false
