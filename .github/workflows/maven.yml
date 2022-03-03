@@ -31,8 +31,11 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release-name: ${{ github.ref }}
+          draft: false
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE }}
+
 
       - name: Upload a Build Artifact
         id: upload-build-artifact
