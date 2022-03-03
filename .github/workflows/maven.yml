@@ -5,7 +5,7 @@ name: Release Maven
 on:
   push:
     tags:
-      - 'v*'
+      - '*'
 #on: [push]
 
 
@@ -56,6 +56,6 @@ jobs:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: /home/runner/work/SPATool/SPATool/target/SPATool-*-SNAPSHOT-all.jar
+          asset_path: /home/runner/work/SPATool/SPATool/target/SPATool-${{ steps.create_release.outputs.tag }}-SNAPSHOT-all.jar
           asset_name: SPATool-${{ steps.create_release.outputs.tag }}-SNAPSHOT-all.jar
           asset_content_type: application/java-archive
