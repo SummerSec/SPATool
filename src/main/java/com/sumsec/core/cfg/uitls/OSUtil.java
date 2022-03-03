@@ -39,7 +39,7 @@ public class OSUtil {
         String[] cmd;
         mkdir(ConstatField.ResultTemp);
         ArrayList<String> imgPaths = new ArrayList<>();
-//        String path = ConstatField.ResultTemp + ConstatField.separator + name + ".png";
+
         logger.info(dotPath.length);
         for (int i = 0; i < dotPath.length; i++) {
             String imgPath = ConstatField.ResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("\\") + 1, dotPath[i].lastIndexOf(".")) + ".png";
@@ -48,7 +48,9 @@ public class OSUtil {
                 cmd = new String[]{"cmd.exe", "/c", "dot", "-Tpng", dotPath[i], "-o", imgPath};
             } else {
                 //linux下的命令
-                cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" , dotPath[i] ,"-o", imgPath};
+                // fix #issue2
+                imgPath = ConstatField.ResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("/") + 1, dotPath[i].lastIndexOf(".")) + ".png";
+                cmd = new String[]{"dot", "-Tpng" , dotPath[i] ,"-o", imgPath};
             }
             try {
 
@@ -56,7 +58,14 @@ public class OSUtil {
                 logger.info("正在执行命令 " + Arrays.toString(cmd));
                 sleep(1000);
                 String charsetName = isWindowsOS ? "GBK" : "UTF-8";
-                byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
+
+                byte[] bytes = null;
+                Scanner runCmd = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A");
+                // fix #issue2: on linux : detect hasNext otherwise will throw an NoSuchElementException
+                if (runCmd.hasNext())
+                    bytes = runCmd.next().getBytes(charsetName);
+
+
                 File file = new File(imgPath);
                 if (!file.exists()) {
                     logger.info("bytes.length = " + bytes.length);
