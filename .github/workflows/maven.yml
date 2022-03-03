@@ -57,7 +57,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.RELEASE}}
         with:
-          upload_url: ${{ steps.create_release.upload_url }}
-          asset_path: ./SPATool-${{steps.create_release.release_name}}.jar
-          asset_name: SPATool-${{steps.create_release.release_name}}.jar
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./SPATool-${{steps.create_release.inputs.release_name}}-SNAPSHOT--all.jar
+          asset_name: SPATool-${{steps.create_release.inputs.release_name}}-SNAPSHOT-all.jar
           asset_content_type: application/java-archive
