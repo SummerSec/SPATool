@@ -32,7 +32,7 @@ public class GenClass {
             log.info("开始生成class： " + className);
             byte[] bytes = clzz.toBytecode();
 //            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            String file = ConstatField.CFGHOMETemp ;
+            String file = ConstatField.CFGHOMETemp;
             mkdir(file);
             FileOutputStream fos = new FileOutputStream(file + ConstatField.separator + className + ".class");
             fos.write(bytes);

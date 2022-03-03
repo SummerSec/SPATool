@@ -33,6 +33,8 @@ public class CFGViewerOver {
     public static void main(CFGViewer viewer,String[] args) {
         Object obj = parse_options(viewer, args);
         Scene.v().addBasicClass(args[0], SIGNATURES);
+
+
         System.out.println(args[0]);
         ConstatField.main.run((String[]) obj);
     }
@@ -43,6 +45,7 @@ public class CFGViewerOver {
         Transform printTransform = new Transform("jtp.printcfg", viewer);
         printTransform.setDeclaredOptions("enabled alt-class-path graph-type ir multipages brief ");
         printTransform.setDefaultOptions("enabled alt-class-path: graph-type:BriefUnitGraph ir:jimple multipages:false  brief:false ");
+
         PackManager.v().getPack("jtp").add(printTransform);
 
 

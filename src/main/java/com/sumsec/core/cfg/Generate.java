@@ -18,6 +18,7 @@ import soot.tools.CFGViewer;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import static cn.hutool.core.io.FileUtil.mkdir;
 import static soot.SootClass.SIGNATURES;
@@ -56,6 +57,7 @@ public class Generate {
                 Options.v().set_prepend_classpath(true);
                 Options.v().set_allow_phantom_refs(true);
                 Options.v().set_soot_classpath(ConstatField.CFGHOMETemp);
+
             }
 
             if (filename.endsWith(".class")){

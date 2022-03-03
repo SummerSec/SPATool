@@ -33,23 +33,37 @@ public class DotHandler  {
         String[] cmd;
         mkdir(ConstatField.ResultTemp);
         ArrayList<String> imgPaths = new ArrayList<>();
-//        String path = ConstatField.ResultTemp + ConstatField.separator + name + ".png";
+
         for (int i = 0; i < dotPath.length; i++) {
             String imgPath = ConstatField.ASTResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("\\") + 1, dotPath[i].lastIndexOf(".")) + ".png";
+
             if (isWindowsOS) {
                 //windows下的命令
                 cmd = new String[]{"cmd.exe", "/c", "dot", "-Tpng", dotPath[i], "-o", imgPath};
             } else {
                 //linux下的命令
-                cmd = new String[]{"/bin/sh", "-c", "dot", "-Tpng" , dotPath[i] , "-o", imgPath};
+
+                // fix #issue2
+                // on unix use / instead \
+                // has tow slash in imgPath
+                imgPath = ConstatField.ASTResultTemp + ConstatField.separator + dotPath[i].substring(dotPath[i].lastIndexOf("/") + 1, dotPath[i].lastIndexOf(".")) + ".png";
+                // fixme: use `/usr/bash -c` may has problem in some bash such as zsh
+                cmd = new String[]{"dot", "-Tpng" , dotPath[i] , "-o", imgPath};
             }
             try {
-
                 logger.info("开始生成图片 " + dotPath[i]);
                 logger.info("正在执行命令 "+ Arrays.toString(cmd));
                 sleep(1000);
                 String charsetName = isWindowsOS ? "GBK" : "UTF-8";
-                byte[] bytes = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A").next().getBytes(charsetName);
+                Runtime.getRuntime().exec(cmd);
+
+                byte[] bytes = null;
+                Scanner runCmd = new Scanner(Runtime.getRuntime().exec(cmd).getInputStream(), charsetName).useDelimiter("\\A");
+                //fix issue#2 : on linux ,detect hasNext otherwise will throw an NoSuchElementException
+                if (runCmd.hasNext())
+                    bytes = runCmd.next().getBytes(charsetName);
+
+
                 File file = new File(imgPath);
                 if (!file.exists()) {
                     logger.info("bytes.length = " + bytes.length);
