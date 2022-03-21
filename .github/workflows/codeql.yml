@@ -75,3 +75,15 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+
+    - name: Upload a Build Artifact
+      id: upload-build-artifact
+      uses: actions/upload-artifact@v2.3.1
+      with:
+        # Artifact name
+        name: # optional, default is artifact
+          java-queries-builtin.qls
+        # A file, directory or wildcard pattern that describes what to upload
+        path:
+          /home/runner/work/_temp/codeql_databases/java-queries-builtin.qls
+        # The desired behavior if no files are found using the provided path.
