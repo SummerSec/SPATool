@@ -1,0 +1,36 @@
+name: "CodeQL Debugging"
+on: workflow_dispatch
+
+jobs:
+  debug:
+    name: CodeQL Debug Job
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript' ]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Initialize CodeQL
+      id: codeqlinit
+      uses: github/codeql-action/init@v1
+      with:
+        languages: ${{ matrix.language }}
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v1
+
+    - name: Debug Analysis
+      uses: zbazztian/codeql-debug@master
+      with:
+        language: ${{ matrix.language }}
+
+    - name: Upload loc as a Build Artifact
+      uses: actions/upload-artifact@v2.2.0
+      with:
+        name: codeql-debug-results
+        path: codeql-debug-results
+        retention-days: 30
