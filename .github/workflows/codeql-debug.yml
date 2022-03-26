@@ -35,6 +35,8 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+      with:
+        upload: false
 
     - name: Debug Analysis
       uses: zbazztian/codeql-debug@master
