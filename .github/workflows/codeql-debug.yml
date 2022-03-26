@@ -39,7 +39,7 @@ jobs:
         upload: false
 
     - name: Debug Analysis
-      uses: zbazztian/codeql-debug@master
+      uses: SummerSec/codeql-debug@master
       with:
         language: ${{ matrix.language }}
 
