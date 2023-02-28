@@ -91,4 +91,10 @@ jobs:
     - name: Upload github/codeql-action/upload-sarif@v2
       id: upload-sarif
       uses: github/codeql-action/upload-sarif@v2
+      with:
+          # Path to SARIF file relative to the root of the repository
+          sarif_file: java.sarif
+          # Optional category for the results
+          # Used to differentiate multiple results for one commit
+#           category: my-analysis-tool
       
