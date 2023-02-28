@@ -89,5 +89,6 @@ jobs:
           /home/runner/work/_temp/codeql_databases/java-queries-builtin.qls
         # The desired behavior if no files are found using the provided path.
     - name: Upload github/codeql-action/upload-sarif@v2
-      id: upload sarif
+      id: upload-sarif
       uses: github/codeql-action/upload-sarif@v2
+      
