@@ -73,15 +73,15 @@ jobs:
     #- run: |
     #   make bootstrap
     #   make release
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
     - name: Upload github/codeql-action/upload-sarif@v2
       id: upload-sarif
       uses: github/codeql-action/upload-sarif@v2
       with:
           # Path to SARIF file relative to the root of the repository
           sarif_file: /home/runner/work/SPATool/results/java.sarif
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
-
     - name: Upload a Build Artifact
       id: upload-build-artifact
       uses: actions/upload-artifact@v2.3.1
