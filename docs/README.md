@@ -35,11 +35,11 @@
 
 ​	下载地址：[https://graphviz.org/download/](https://graphviz.org/download/)，参考配置如下。
 
-![image-20220214201824399](https://cdn.jsdelivr.net/gh/SummerSec/Images/24u1824ec24u1824ec.png)
+![image-20220214201824399](https://img.sumsec.me/24u1824ec24u1824ec.png)
 
 > 检测是否配置成功，执行命令`dot -h`
 
-![image-20220214201909412](https://cdn.jsdelivr.net/gh/SummerSec/Images/9u199ec9u199ec.png)
+![image-20220214201909412](https://img.sumsec.me/9u199ec9u199ec.png)
 
 * GitHub Release 下载
 
@@ -56,7 +56,7 @@
 
 **效果页面**
 
-![image-20220214154214904](https://cdn.jsdelivr.net/gh/SummerSec/Images/22u4222ec22u4222ec.png)
+![image-20220214154214904](https://img.sumsec.me/22u4222ec22u4222ec.png)
 
 **GUI使用说明**
 
