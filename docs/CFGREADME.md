@@ -12,7 +12,7 @@
 
 ### 界面
 
-![image-20220214154442628](https://cdn.jsdelivr.net/gh/SummerSec/Images/42u4442ec42u4442ec.png)
+![image-20220214154442628](https://img.sumsec.me/42u4442ec42u4442ec.png)
 
 
 
@@ -26,25 +26,25 @@
 
 1. 第一步
 
-![image-20220214154747324](https://cdn.jsdelivr.net/gh/SummerSec/Images/47u4747ec47u4747ec.png)
+![image-20220214154747324](https://img.sumsec.me/47u4747ec47u4747ec.png)
 
 2. 第二步选择class文件
 
-![image-20220214155828749](https://cdn.jsdelivr.net/gh/SummerSec/Images/28u5828ec28u5828ec.png)
+![image-20220214155828749](https://img.sumsec.me/28u5828ec28u5828ec.png)
 
 3. 第三步点击**Generate**按钮
 
     如果是命令行启动可以在控制台看到日子信息
 
-    ![image-20220214161721181](https://cdn.jsdelivr.net/gh/SummerSec/Images/21u1721ec21u1721ec.png)
+    ![image-20220214161721181](https://img.sumsec.me/21u1721ec21u1721ec.png)
 
     如果是直接启动的话可以在应用启动目录的**datas/logs/app.log**查看日志信息
 
 4. 第四步，查看CFG，默认是生成所有的方法的CFG图。可以自由调节图片大小。
 
-![image-20220214162844240](https://cdn.jsdelivr.net/gh/SummerSec/Images/44u2844ec44u2844ec.png)
+![image-20220214162844240](https://img.sumsec.me/44u2844ec44u2844ec.png)
 
-![image-20220214162850306](https://cdn.jsdelivr.net/gh/SummerSec/Images/50u2850ec50u2850ec.png)
+![image-20220214162850306](https://img.sumsec.me/50u2850ec50u2850ec.png)
 
 
 
@@ -54,15 +54,15 @@
 
 1. 第一步输入方法内容，但这种方法局限性很大。并不是通用的，通用的是采用类文件的方法。
 
-![image-20220214164359927](https://cdn.jsdelivr.net/gh/SummerSec/Images/59u4359ec59u4359ec.png)
+![image-20220214164359927](https://img.sumsec.me/59u4359ec59u4359ec.png)
 
 2. 第二步选择**GraphType**，点击**Generate**按钮（选择类文件模式也是一样。前面忘记提了
 
-![image-20220214164633673](https://cdn.jsdelivr.net/gh/SummerSec/Images/33u4633ec33u4633ec.png)
+![image-20220214164633673](https://img.sumsec.me/33u4633ec33u4633ec.png)
 
 3. 第三步，自动生成CFG图片。
 
-![image-20220214164918798](https://cdn.jsdelivr.net/gh/SummerSec/Images/18u4918ec18u4918ec.png)
+![image-20220214164918798](https://img.sumsec.me/18u4918ec18u4918ec.png)
 
 
 
@@ -72,17 +72,17 @@
 
 1.第一步点击Export Image按钮，选择保存的路径。
 
-![image-20220214165329917](https://cdn.jsdelivr.net/gh/SummerSec/Images/29u5329ec29u5329ec.png)
+![image-20220214165329917](https://img.sumsec.me/29u5329ec29u5329ec.png)
 
-![image-20220214165401612](https://cdn.jsdelivr.net/gh/SummerSec/Images/1u541ec1u541ec.png)
+![image-20220214165401612](https://img.sumsec.me/1u541ec1u541ec.png)
 
 2. 第二步自动保存路径，并弹出成功信息。
 
-    ![image-20220214165418364](https://cdn.jsdelivr.net/gh/SummerSec/Images/18u5418ec18u5418ec.png)
+    ![image-20220214165418364](https://img.sumsec.me/18u5418ec18u5418ec.png)
 
     3. 查看是否保存成功
 
-    ![image-20220214165510615](https://cdn.jsdelivr.net/gh/SummerSec/Images/10u5510ec10u5510ec.png)
+    ![image-20220214165510615](https://img.sumsec.me/10u5510ec10u5510ec.png)
 
 
 
@@ -92,7 +92,7 @@
 
 同保存图片一样。
 
-![image-20220214165549358](https://cdn.jsdelivr.net/gh/SummerSec/Images/49u5549ec49u5549ec.png)
+![image-20220214165549358](https://img.sumsec.me/49u5549ec49u5549ec.png)
 
 ---
 
